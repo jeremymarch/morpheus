@@ -44,8 +44,8 @@
 :le:*(/orkos
 :no:*(ork os_ou masc sg pers_name
 
-:le:*(/ormh/
-:no:*(orm h_hs fem suff_acc suff_acc sg pers_name
+:le:*(ormh/
+:no:*(orm h_hs fem suff_acc suff_acc sg
 
 :le:*(/osios
 :no:*(osi os_ou masc sg pers_name
@@ -53,14 +53,8 @@
 :le:*(/ulatos
 :no:*(ulat os_ou masc sg pers_name
 
-:le:*(/upatsos
-:no:*(upats os_ou masc sg pers_name
-
 :le:*(=wros
 :no:*(wr os_ou masc sg pers_name
-
-:le:*(ali/artus
-:no:*(aliart us_uos masc sg pers_name
 
 :le:*(alosu/dnh
 :no:*(alosudn h_hs fem sg pers_name
@@ -369,6 +363,9 @@ stemacc:*(ippolai/tis
 
 :le:*)/ada
 :no:*)ad a_hs fem sg pers_name
+:wd:*)ada= fem sg indecl_noun late
+:no:*)ad a_hs fem suff_acc pers_name late
+:no:*)ada a_hs fem suff_acc pers_name late
 
 :le:*)/aggelos
 :no:*)aggel os_ou masc sg pers_name
@@ -380,7 +377,9 @@ stemacc:*(ippolai/tis
 :no:*)agxour os_ou masc sg pers_name
 
 :le:*)=akis
-:no:*)ak is_idos masc sg pers_name
+:no:*)ak is_idos masc sg geog_name
+:no:*)a_k is_idos masc sg geog_name
+#accent varies
 
 :le:*)/akrwn
 :no:*)akr wn_onos masc sg pers_name
@@ -589,10 +588,10 @@ stemacc:*(ippolai/tis
 :no:*)abradat hs_ou masc doric aeolic sg pers_name
 
 :le:*)abretthno/s
-:no:*)abretthn os_ou masc suff_acc suff_acc sg pers_name
+:no:*)abretthn os_h_on suff_acc
 
-:le:*)abru/tonon
-:no:*)abruton os_ou neut sg pers_name
+:le:*)abro/tonon
+:no:*)abroton os_ou neut sg pers_name
 
 :le:*)abrw/nuxos
 :no:*)abrwnux os_ou masc sg pers_name
@@ -695,10 +694,10 @@ stemacc:*(ippolai/tis
 :no:*)aght hs_ou masc doric aeolic sg pers_name
 
 :le:*)aghnori/dhs
-:no:*)aghnorid hs_ou masc sg pers_name
+:no:*)aghnorid hs_ou masc stem_acc
 
 :le:*)aghsandri/das
-:no:*)aghsandrid hs_ou masc doric aeolic sg pers_name
+:no:*)aghsandrid hs_ou stem_acc masc doric aeolic sg pers_name
 
 :le:*)aghsi/as
 :no:*)aghsi hs_ou masc sg pers_name
@@ -713,7 +712,7 @@ stemacc:*(ippolai/tis
 :no:*)agnodik h_hs fem sg pers_name
 
 :le:*)agnwni/dhs
-:no:*)agnwnid hs_ou masc sg pers_name
+:no:*)agnwnid hs_ou masc sg pers_name stem_acc
 
 :le:*)agrai=os
 :no:*)agrai_ os_ou masc sg pers_name
@@ -821,7 +820,7 @@ stemacc:*)albi/nos
 :no:*)alecamen os_ou masc suff_acc suff_acc sg pers_name
 
 :le:*)alecandri/dhs
-:no:*)alecandrid hs_ou masc sg pers_name
+:no:*)alecandrid hs_ou masc sg pers_name stem_acc
 
 :le:*)aleci/dh
 :no:*)alecid h_hs fem sg pers_name
@@ -933,13 +932,17 @@ stemacc:*)ammw/nos
 :no:*)ammwnian os_ou masc suff_acc suff_acc sg pers_name
 
 :le:*)amnisia/des
-:no:*)amnisia s_dos fem stem_acc pl  pers_name
+:no:*)amnisia s_dos fem stem_acc pl is_group
 
-:le:*)amorai=os
-:no:*)amorai_ os_ou masc sg pers_name
+:le:*)amorrai=os
+:aj:*)amorai_ os_h_on stem_acc
+:aj:*)amorrai_ os_h_on stem_acc
+
+:le:*)amorrai=os
+:no:*)amorrai os_ou masc stem_acc
 
 :le:*)ampuki/dhs
-:no:*)ampukid hs_ou masc sg pers_name
+:no:*)ampukid hs_ou masc sg pers_name stem_acc
 
 :le:*)amu/nandros
 :no:*)amunandr os_ou masc sg pers_name
@@ -975,7 +978,7 @@ stemacc:*)ammw/nos
 :no:*)anacimandr os_ou masc sg pers_name
 
 :le:*)anacili/dhs
-:no:*)anacilid hs_ou masc sg pers_name
+:no:*)anacilid hs_ou masc sg pers_name stem_acc
 
 :le:*)anaduome/nh
 :no:*)anaduomen h_hs fem sg pers_name
@@ -1113,13 +1116,10 @@ stemacc:*)antio/xos
 :no:*)apell ehs_eou masc suff_acc suff_acc sg pers_name
 
 :le:*)apellikw=n
-:no:*)apellik wCn_wCntos masc suff_acc suff_acc sg pers_name
+:no:*)apellik wCn_wCntos masc suff_acc pers_name
 
 :le:*)aph/mios
 :no:*)aphmi os_ou masc sg pers_name
-
-:le:*)apollo/dwoos
-:no:*)apollodwo os_ou masc sg pers_name
 
 :le:*)apollo/qemis
 :no:*)apolloqem is_idos masc sg pers_name
@@ -1144,10 +1144,10 @@ stemacc:*)antio/xos
 :no:*)aqanad hs_ou masc doric aeolic sg pers_name
 
 :le:*)aqana/sios
-:no:*)aqanasi os_ou masc sg pers_name
+:no:*)aqanasi os_ou masc 
 
 :le:*)aqh/nippos
-:no:*)aqhnipp os_ou masc sg pers_name
+:no:*)aqhnipp os_ou masc 
 
 :le:*)aqhnai/+s
 :no:*)aqhna is_idos fem suff_acc suff_acc sg pers_name
@@ -1277,9 +1277,6 @@ stemacc:*)aretafi/la
 :le:*)aristo/filos
 :no:*)aristofil os_ou masc sg pers_name
 
-:le:*)aristo/fwn
-:no:*)aristof wn_onos masc sg pers_name
-
 :le:*)aristo/kleia
 :no:*)aristoklei a_hs fem sg pers_name
 
@@ -1292,8 +1289,8 @@ stemacc:*)aretafi/la
 :le:*)aristo/noos
 :no:*)aristono os_ou masc sg pers_name
 
-:le:*)aristobu/lh
-:no:*)aristobul h_hs fem sg pers_name
+:le:*)aristobou/lh
+:no:*)aristoboul h_hs fem sg pers_name
 
 :le:*)aristofw=n
 :no:*)aristof wCn_wCntos masc suff_acc suff_acc sg pers_name
@@ -1944,17 +1941,11 @@ stemacc:*)oda/tis
 :le:*/)iasi/wn
 :no:*)iasi wn_onos masc sg pers_name
 
-:le:*=(wrai
-:no:*_(wr h_hs fem pl  pers_name
+:le:*(=wrai
+:no:*(wr h_hs fem pl  pers_name
 
-:le:*ae(/mwn
-:no:*ae(m wn_onos masc sg pers_name
-
-:le:*ae(=mos
-:no:*ae(_m os_ou masc sg pers_name
-
-:le:*ai)/akos
-:no:*ai)ak os_ou masc sg pers_name
+:le:*ai)ako/s
+:no:*ai)ak os_ou masc pers_name suff_acc
 
 :le:*ai)/gh
 :no:*ai)g h_hs fem sg pers_name
@@ -1963,16 +1954,18 @@ stemacc:*)oda/tis
 :no:*ai)nik os_ou masc sg pers_name
 
 :le:*ai)/qilla
-:no:*ai)qill a_hs fem sg pers_name
+:no:*ai)qill a_hs fem pers_name
+:no:*ai)qill a_hs fem pers_name stem_acc
+#accent varies.
 
 :le:*ai)/quia
 :no:*ai)qui a_hs fem sg pers_name
 
 :le:*ai)de/sios
-:no:*ai)desi os_ou masc sg pers_name
+:no:*ai)desi os_ou masc
 
 :le:*ai)desi/a
-:no:*ai)desi a_hs fem sg pers_name
+:no:*ai)desi a_hs fem stem_acc 
 
 :le:*ai)glh/ths
 :no:*ai)glht hs_ou masc sg pers_name
@@ -1993,7 +1986,7 @@ stemacc:*ai)gofa/gos
 :no:*ai)nht h_hs fem sg pers_name
 
 :le:*ai)qali/dhs
-:no:*ai)qalid hs_ou masc sg pers_name
+:no:*ai)qalid hs_ou masc stem_acc
 
 :le:*ai)sa/ra
 :no:*ai)sar a_hs fem stem_acc sg pers_name
@@ -3381,7 +3374,7 @@ stemacc:*goggu/los
 :no:*grhgenti os_ou masc sg pers_name
 
 :le:*grhgo/rios
-:no:*grhgori os_ou masc sg pers_name
+:no:*grhgori os_ou masc
 
 :le:*gru/neios
 :no:*grunei os_ou masc sg pers_name
@@ -5842,7 +5835,8 @@ stemacc:*tegurh/ios
 :no:*trufain a_hs fem sg pers_name
 
 :le:*tru/fwn
-:no:*truf wn_onos masc sg pers_name
+:no:*truf wn_onos masc pers_name
+#used as ex of how to form a plural
 
 :le:*tru/llos
 :no:*trull os_ou masc sg pers_name

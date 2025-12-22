@@ -23,7 +23,8 @@
 :de:a)brox ew_denom
 
 :le:a)ga/zw
-:de:a)g azw
+:vs:a)gaz w_stem
+#drastically curtailing to send rest to agamai instead
 
 :le:a)gaqodaimone/w
 :de:a)gaqodaimon ew_denom
@@ -108,9 +109,6 @@
 
 :le:a)glaopoie/w
 :de:a)glaopoi ew_denom
-
-:le:a)gne/w
-:de:a)gn ew_denom
 
 :le:a)gnohmati/zw
 :de:a)gnohmat izw
@@ -288,9 +286,6 @@
 
 :le:a)qloqete/w
 :de:a)qloqet ew_denom
-
-:le:a(qre/w
-:de:a(qr ew_denom
 
 :le:a)qumo/w
 :de:a)qum ow_denom
@@ -544,9 +539,6 @@
 :le:a)krofalhria/w
 :de:a)krofalhr iaw_denom
 
-:le:a)kroxeiri/zw
-:de:a)kroxeir izw
-
 :le:a)kroxole/w
 :de:a)kroxol ew_denom
 
@@ -561,6 +553,9 @@
 
 :le:a)ktinobole/w
 :de:a)ktinobol ew_denom
+
+:le:a)ktologe/w
+:de:a)ktolog ew_denom
 
 :le:a)ktwre/w
 :de:a)ktwr ew_denom
@@ -880,6 +875,9 @@
 :le:a)naisqhteu/omai
 :de:a)naisqht euw mp
 
+:le:a)nakh=sai
+:vb:a)nakh=sai aor1 aor inf act
+
 :le:a)nakogxi/zw
 :de:a)nakogx izw
 #no aug seen uzw variant?
@@ -887,6 +885,10 @@
 :le:a)nakoine/w
 :de:a)nakoin ew_denom
 #hmm-ok
+
+:le:a)nakolouqe/w
+:de:a)nakolouq ew_denom
+#no aug seen, an not ana
 
 :le:a)nakolpa/zw
 :de:a)nakolp azw
@@ -976,7 +978,7 @@
 :de:a)ndrei ow_denom
 
 :le:a)ndreu/omai
-:de:a)ndr euw mp
+:de:a)ndr euw
 
 :le:a)ndrobate/w
 :de:a)ndrobat ew_denom
@@ -1239,6 +1241,9 @@
 :de:a)phleg ew_denom
 #no aug
 
+:le:a)pine/omai
+:de:a)pin ew_denom mp
+
 :le:a)pino/w
 :de:a)pin ow_denom
 #priv
@@ -1281,6 +1286,14 @@
 :le:a)poquro/w
 :de:a)poqur ow_denom
 #no augm
+
+:le:a)poqu/skein
+:vb:a)poqu/skein w_stem pres inf act
+#gloss
+
+:le:a)poqu/ssei
+:vb:a)poqu/ssh| w_stem pres 2nd sg mp ind
+#gloss
 
 :le:a)pokaqarieu/w
 :de:a)pokaqari euw
@@ -1852,8 +1865,9 @@
 :le:a)swmato/w
 :de:a)swmat ow_denom
 
-:le:a)swteu/w
-:de:a)swt euw
+#:le:a)swteu/w
+#:de:a)swt euw
+#dup
 
 :le:a)tarakte/w
 :de:a)tarakt ew_denom
@@ -2112,6 +2126,7 @@
 
 :le:a)xroe/w
 :de:a)xro ew_denom
+:de:a)xroi ew_denom ionic
 
 :le:a)xurhge/w
 :de:a)xurhg ew_denom
@@ -2246,6 +2261,10 @@
 :de:bassar ew_denom
 moved bc ana- only shows up in tmesis
 
+:le:bastraxhli/zw
+:de:bastraxhl izw
+:de:bastraxal izw pamphylian
+
 :le:batali/zomai
 :de:batal izw mp
 
@@ -2327,8 +2346,9 @@ moved bc ana- only shows up in tmesis
 :le:bli/zw
 :de:bl izw
 
-:le:bli/ssw
-:de:bli ss
+#:le:bli/ssw
+#:de:bli ss
+#duplicate
 
 :le:blituri/zomai
 :de:blitur izw mp
@@ -2351,11 +2371,9 @@ moved bc ana- only shows up in tmesis
 :le:bolbwruxe/w
 :de:bolbwrux ew_denom
 
-:le:bole/w
-:de:bol ew_denom
-
-:le:bolleu/w
-:de:boll euw
+:le:bouleu/w
+:de:boll euw lesbian
+:de:bwl euw doric
 
 :le:bomba/zw
 :de:bomb azw
@@ -2972,8 +2990,10 @@ moved bc ana- only shows up in tmesis
 :le:dakna/zw
 :de:dakn azw
 
-:le:dama/w
-:de:dam aw_denom
+#:le:dama/w
+#:vs:dam aw_pres late epic
+#QSmyrnaeus
+#move to vbs.simp
 
 :le:dameu/w
 :de:dam euw
@@ -3091,12 +3111,6 @@ moved bc ana- only shows up in tmesis
 
 :le:deuterologe/w
 :de:deuterolog ew_denom
-
-:le:deu/omai
-:de:d euw mp
-
-:le:de/omai
-:de:d ew_denom mp
 
 :le:dhlhgateu/w
 :de:dhlhgat euw
@@ -4288,6 +4302,9 @@ moved bc ana- only shows up in tmesis
 #:le:e)noike/w
 #:de:e)nvoik ew_denom
 
+:le:e)nqalu/cas
+:vb:e)nqalu/cas aor1 aor part masc nom sg
+
 :le:e)nqenari/zw
 :de:e)nqenar izw
 #no aug
@@ -4301,6 +4318,14 @@ moved bc ana- only shows up in tmesis
 
 :le:e(ni/zw
 :de:e(n izw
+
+:le:e)nih=lai
+:vb:e)nih=lai aor1 aor inf act
+#gloss
+
+:le:e)nihli/zein
+:vb:e)nihli/zein w_stem pres inf act
+#gloss
 
 :le:e)nipta/zw
 :de:e)nipt azw
@@ -4558,6 +4583,10 @@ check if this works for entelew
 :le:e)paoide/w
 :de:e)paoid ew_denom
 #not found
+
+:le:e)paphxei=ai
+:vb:e)paphxei=ai ew_pr aor inf act
+#gloss
 
 :le:e)paristereu/omai
 :de:e)parister euw mp
@@ -5175,6 +5204,9 @@ check if this works for entelew
 :le:eu)lokope/omai
 :de:eu)lokop ew_denom mp
 
+:le:eu)mari/zw
+:de:eu)mar izw 
+
 :le:eu)melite/w
 :de:eu)melit ew_denom
 
@@ -5182,7 +5214,7 @@ check if this works for entelew
 :de:eu)men ew_denom
 
 :le:eu)meni/zomai
-:de:eu)men izw mp
+:de:eu)men izw
 
 :le:eu)moirate/w
 :de:eu)moirat ew_denom
@@ -5198,6 +5230,9 @@ check if this works for entelew
 
 :le:eu)noi/zomai
 :de:eu)no izw mp
+
+:le:eu)nouxe/w
+:de:eu)noux ew_denom
 
 :le:eu)odia/zw
 :de:eu)odi azw
@@ -5658,11 +5693,12 @@ check if this works for entelew
 :le:h(rwologe/w
 :de:h(rwolog ew_denom
 
-:le:h(tta/w
-:de:h(tt aw_denom
+#:le:h(tta/w
+#:de:h(tt aw_denom
 
 :le:h(suxa/w
-:de:h(sux aw_denom
+:vb:h(suxo/wsa aw_pr pres act part fem nom sg epic late
+#hapax in Sx 
 
 :le:h(suxo/omai
 :de:h(sux ow_denom mp
@@ -5673,8 +5709,8 @@ check if this works for entelew
 :le:h)fia/w
 :de:h)fi aw_denom comp_only
 
-:le:qa/zw
-:de:q azw
+#:le:qa/zw
+#:de:q azw
 
 :le:qalameu/w
 :de:qalam euw
@@ -5805,8 +5841,9 @@ check if this works for entelew
 :le:qerapeu/w
 :de:qarap euw
 
-:le:qerma/zw
-:de:qerm azw
+#:le:qerma/zw
+#:de:qerm azw
+#merged w qermainw
 
 :le:qermaustri/zw
 :de:qermaustr izw
@@ -5952,9 +5989,6 @@ check if this works for entelew
 :le:qri/ssw
 :de:qri ss
 
-:le:qroni/zomai
-:de:qron izw mp
-
 :le:qrugona/w
 :de:qrugon aw_denom
 
@@ -6002,6 +6036,9 @@ check if this works for entelew
 
 :le:qumopoie/w
 :de:qumopoi ew_denom
+
+:le:proqumopoie/omai
+:de:proqumopoi ew_denom
 
 :le:qumofone/w
 :de:qumofon ew_denom
@@ -6887,6 +6924,9 @@ check if this works for entelew
 #:le:kataisxreu/omai
 #:de:kataisxr euw mp
 
+:le:kataioni/zw
+:de:kataion izw
+
 :le:katakenti/zw
 :de:katakent izw
 #ignore, 'hapax' now prints katakontiou=ntas
@@ -7431,6 +7471,9 @@ check if this works for entelew
 :le:koilo/w
 :de:koil ow_denom
 
+:le:koinobiarxe/w
+:de:koinobiarx ew_denom
+
 :le:koinoqulake/w
 :de:koinoqulak ew_denom
 
@@ -7719,11 +7762,10 @@ check if this works for entelew
 :le:kreitto/omai
 :de:kreitt ow_denom mp
 
-:le:krema/w
+:le:krema/nnumi
 :de:krem aw_denom
-
-:le:krema/zw
 :de:krem azw
+:de:kremn aw_denom
 
 :le:krembalia/zw
 :de:krembali azw
@@ -8880,7 +8922,7 @@ check if this works for entelew
 :de:melanhfor ew_denom
 
 :le:melano/omai
-:de:melan ow_denom mp
+:de:melan ow_denom
 
 :le:melanofore/w
 :de:melanofor ew_denom
@@ -8905,9 +8947,6 @@ check if this works for entelew
 
 :le:melitourge/w
 :de:melitourg ew_denom
-
-:le:melito/w
-:de:melit ow_denom
 
 :le:melittophxe/w
 :de:melittophx ew_denom
@@ -9652,8 +9691,7 @@ check if this works for entelew
 :le:nosti/zw
 :de:nost izw
 
-:le:nosfi/zw
-:de:nosf izw
+#nosfizw dupe removed
 
 :le:note/w
 :de:not ew_denom
@@ -9845,7 +9883,7 @@ check if this works for entelew
 :de:oi)akonom ew_denom
 
 :le:oi)a/w
-:de:oi) aw_denom
+:vs:oi) aw_pr
 
 #:le:oi)da/w
 #:de:oi)d aw_denom
@@ -10185,9 +10223,6 @@ merge with w)le
 :le:o(motroxa/w
 :de:o(motrox aw_denom
 
-:le:o(moure/w
-:de:o(mour ew_denom
-
 :le:o(moxroe/w
 :de:o(moxro ew_denom
 
@@ -10268,9 +10303,6 @@ merge with w)le
 
 :le:o)phdeu/w
 :de:o)phd euw
-
-:le:o)phde/w
-:de:o)phd ew_denom
 
 :le:o)piki/zw
 :de:o)pik izw
@@ -10569,8 +10601,9 @@ merge with w)le
 :le:ou)rotome/w
 :de:ou)rotom ew_denom
 
-:le:o)feile/w
-:de:o)feil ew_denom
+#:le:o)feile/w
+#:de:o)feil ew_denom
+#merge with ofeilw proper
 
 :le:o)feltreu/w
 :de:o)feltr euw
@@ -10584,8 +10617,9 @@ merge with w)le
 :le:o)fqalmwruxe/w
 :de:o)fqalmwrux ew_denom
 
-:le:o)fle/w
-:de:o)fl ew_denom
+#:le:o)fle/w
+#:de:o)fl ew_denom
+#should all go to ofliskanw. Let's see. 
 
 :le:o)xa/omai
 :de:o)x aw_denom mp
@@ -10798,6 +10832,9 @@ merge with w)le
 :de:parasab azw
 #no aug
 
+:le:paraifhlou/meqa
+:vb:paraifhlou/meqa ew_pr 1st pl pres ind mp
+
 :le:paraluki/zw
 :de:paraluk izw
 #no aug hapax
@@ -10973,13 +11010,17 @@ merge with w)le
 :de:perieut izw mp
 #lexical mention
 
-:le:perikata/ssomai
-:de:perikata ss mp
-#Sx
-
-:le:perikatea/ssw
-:de:perikatea ss
+#:le:perikata/ssomai
+#:de:perikata ss mp
+#Sx 
+#:le:perikatea/ssw
+#:de:perikatea ss
 #lex
+#merged these two to go to agnumi and stay out of trouble
+
+:le:perilh=sai
+:vb:perilh=sai aor1 aor inf act
+#gloss
 
 :le:periousia/zw
 :de:periousi azw
@@ -11137,8 +11178,9 @@ merge with w)le
 :le:pilofore/w
 :de:pilofor ew_denom
 
-:le:pimpla/w
-:de:pimpl aw_denom
+:le:pi/mplhmi
+:de:pimpl aw_denom late
+#should add to simp ml, at least merged now
 
 :le:pinakografe/w
 :de:pinakograf ew_denom
@@ -11677,8 +11719,8 @@ merge with w)le
 :le:pratoreu/w
 :de:prator euw
 
-:le:praupaqe/w
-:de:praupaq ew_denom
+:le:prau+paqe/w
+:de:prau+paq ew_denom
 
 :le:preigeu/w
 :de:preig euw
@@ -11802,6 +11844,9 @@ merge with w)le
 
 :le:prougele/w
 :de:prougel ew_denom
+
+:le:prounikeuw
+:de:prounik euw
 
 :le:profa/w
 :vs:prof aw_denom
@@ -12939,9 +12984,6 @@ merge with w)le
 :le:stadieu/w
 :de:stadi euw
 
-:le:staqma/omai
-:de:staqm aw_denom mp
-
 :le:staqmodote/w
 :de:staqmodot ew_denom
 
@@ -13436,6 +13478,9 @@ merge with w)le
 :le:sunteleo/omai
 :de:suntele ow_denom mp
 #f.l. acc to LSJ
+
+:le:suntome/w
+:de:suntom ew_denom
 
 :le:sunwnume/w
 :de:sunwnum ew_denom
@@ -14243,9 +14288,6 @@ merge with w)le
 :le:truxno/w
 :de:truxn ow_denom
 
-:le:truxo/w
-:de:trux ow_denom
-
 :le:trwglodute/w
 :de:trwglodut ew_denom
 
@@ -14454,6 +14496,10 @@ merge with w)le
 :le:u(oskuama/w
 :de:u(oskuam aw_denom
 
+:le:u(pati/zw
+:de:u(pat izw
+#consul stuff, late
+
 :le:u(permegeqe/w
 :de:u(permegeq ew_denom
 #f.l. says LSJ
@@ -14466,6 +14512,10 @@ merge with w)le
 :de:u(perudrargur izw
 #Tz hapax
 
+:le:u(perxeile/w
+:de:u(perxeil ew_denom
+#Anna hapax
+
 :le:u(perwdune/w
 :de:u(perwdun ew_denom
 #merged with oduna, odunew
@@ -14477,6 +14527,9 @@ merge with w)le
 :le:u(pnopoie/w
 :de:u(pnopoi ew_denom
 
+:le:u(poaktai/nomai
+:vb:u(poaktai/nonto w_stem impf ind mp 3rd pl
+
 :le:u(podendrua/zw
 :de:u(podendru azw
 #no augment in attestations
@@ -14485,8 +14538,8 @@ merge with w)le
 :de:u(podrh ss
 #once in AR
 
-:le:u(pozuge/w
-:de:u(pozug ew_denom
+#:le:u(pozuge/w
+#:de:u(pozug ew_denom
 #not in current edd.
 
 :le:u(pokagkeli/zw
@@ -14513,8 +14566,9 @@ merge with w)le
 :de:u(posfur izw mp
 #lex no aug
 
-:le:u(ptia/w
-:de:u(pt iaw_denom
+#:le:u(ptia/w
+#:de:u(pt iaw_denom
+#move to vbs.simp.ml for pruning
 
 :le:u(spole/w
 :de:u(spol ew_denom
@@ -14522,8 +14576,9 @@ merge with w)le
 :le:u)u/zw
 :de:u) uzw
 
-:le:u(fa/zw
+:le:u(fai/nw
 :de:u(f azw
+#merge with ufainw
 
 #:le:u(fana/w
 #:de:u(_fan aw_denom
@@ -15170,8 +15225,10 @@ merge with w)le
 :le:fwria/w
 :de:fwr iaw_denom
 
-:le:fw/ssw
+:le:fw/gw
 :de:fw ss
+:vs:fwg w_stem
+:de:fwg numi
 
 :le:fwsfore/w
 :de:fwsfor ew_denom
@@ -15438,11 +15495,12 @@ merge with w)le
 :le:xlamudo/omai
 :de:xlamud ow_denom mp
 
-:le:xlia/zw
-:de:xli azw
-
-:le:xlia/w
-:de:xl iaw_denom
+#:le:xlia/zw
+#:de:xli azw
+#
+#:le:xlia/w
+#:de:xl iaw_denom
+#limiting the applicability of these stems see vbs.simp
 
 :le:xlidia/w
 :de:xlid iaw_denom
@@ -15629,6 +15687,9 @@ merge with w)le
 
 :le:xruswruxe/w
 :de:xruswrux ew_denom
+
+:le:xrwmati/zw
+:de:xrwmat izw
 
 :le:xudai/zomai
 :de:xuda izw mp
@@ -15894,6 +15955,9 @@ merge with w)le
 
 :le:w)re/w
 :de:w)r ew_denom
+
+:le:w(rima/zw
+:de:w(rim azw
 
 :le:w)ri/zw
 :de:w)r izw

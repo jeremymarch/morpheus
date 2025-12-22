@@ -318,7 +318,6 @@
 *ki/lic	ethnic
 *ai)kolano/s	ethnic
 *)abdhri/ths	ethnic
-*)ambrakiw/ths	ethnic
 *(hraklew/ths	ethnic
 *za/gklh	place
 *solpi/kios	person
@@ -358,7 +357,6 @@
 *(/istros	person
 *(/orta	person
 *(/rutinon	person
-*(agnou/sios	person
 *(alai=os	person
 *(alikarnaseu/s	person
 *(armo/nios	person
@@ -379,7 +377,7 @@
 *(estiai/a	person
 *(hgh/sippos	person
 *(hlio/ph	person
-*(hliopoli/ths	person
+*(hliopoli/ths	ethnic
 *(hrai=os	person
 *(hraklei/teios	person
 *(hraklei/dai	ethnic
@@ -421,15 +419,13 @@
 *(uyi/wn	person
 *(uyikre/wn	person
 *(uyipu/lh	person
-*(wra/tios	person
 *(wrati/a	person
 *(wroma/zhs	person
 *)/adrhstos	person
 *)/agraulos	person
 *)/akka	person
 *)/amhstris	person
-*)/anakes	ethnic
-*)/anakes	person
+*)/anakes	group
 *)/androklos	person
 *)/antrwn	person
 *)/antwn	person
@@ -471,12 +467,11 @@
 *)aci/oxos	person
 *)acio/s	person
 *)adriatiko/s	person
-*)adw/nia	person
+*)adw/nia	festival
 *)afra/nios	person
 *)afrodi/sios	person
 *)aglaoni/kh	person
 *)agorai=os	person
-*)agria/n	person
 *)agxa/rios	person
 *)akadhmai+ko/s	group
 *)akadhmai+ko/s	person
@@ -484,9 +479,6 @@
 *)akadhmiako/s	person
 *)aki/dousa	person
 *)aki/lios	person
-*)aku/lios	person
-*)aku/llios	ethnic
-*)aku/llios	person
 *)alala/	person
 *)albani/s	ethnic
 *)albi/nios	person
@@ -505,7 +497,6 @@
 *)amalqei/a	person
 *)amaqou/sios	person
 *)amazoniko/s	person
-*)ambrakiw/ths	person
 *)ame/nqhs	person
 *)ameloi=	place
 *)amfa/rhs	person
@@ -706,15 +697,12 @@
 *ai)/geiroi	place
 *ai)/gesta	person
 *ai)/gwn	person
-*ai)/nios	person
 *ai)/nitos	person
 *ai)/qh	person
-*ai)/qic	person
 *ai)/sxrh	person
 *ai)=klos	person
 *ai)anti/s	group
 *ai)anti/s	person
-*ai)cwneu/s	person
 *ai)dhyo/s	person
 *ai)ghi/s	person
 *ai)guptiako/s	person
@@ -726,7 +714,6 @@
 *ai)qaki/a	person
 *ai)sku/liai	person
 *ai)sw/peios	person
-*ai)twli/s	person
 *ai)twliko/s	person
 *au)/gour	group
 *au)/goustos	person
@@ -745,7 +732,6 @@
 *baleariko/s	person
 *baqu/llios	person
 *baste/rnhs	ethnic
-*bath=qen	person
 *bati/nios	person
 *be/bwn	person
 *be/sbion	person
@@ -1476,7 +1462,7 @@
 *qrase/as	person
 *qra|kiko/s	person
 *qria/sios	person
-*qu/bris	person
+*qu/bris	place
 *quia/s	person
 *qumote/lhs	person
 *qurea/tis	person
@@ -1549,7 +1535,7 @@
 *xa/luy	group
 *zoroba/bhlos	person
 *kleiw/	person
-*li/ghr	ethnic
+*li/ghr	place
 *mardoxai=os	person
 *pontiko/s	ethnic
 *(robo/amos	person
@@ -1621,7 +1607,6 @@
 *stwiko/s	group
 *su/baris	person
 *su/baris	place
-*su/rtis	person
 *subari/ths	ethnic
 *subari/ths	person
 *subaritiko/s	person
@@ -1873,7 +1858,6 @@ Xenares	person
 *)alh/ios	persName
 *)alki/dhs	persName
 *)alki/dhs	persName
-*)amfia/rhos	persName
 *)amfiklh=s	persName
 *)ammwniako/s	group
 *)antiklh=s	persName
