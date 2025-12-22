@@ -23009,6 +23009,7 @@ a(palosugkrit :a(palosu/gkritos:os_on
 a(paloswmat :a(palosw/matos:os_on
 a(paloth :a(palo/ths:s_tos:fem:ant_acc
 a(palotref :a(palotrefh/s:hs_es:suff_acc
+a(paloxei :a(palo/xeir:r_ros:masc/fem
 a(paloxr :a(palo/xroos:oos_oon:stem_acc
 a(palunt :a(palunth/s:hs_ou:masc:suff_acc
 a(palusm :a(palusmo/s:os_ou:masc:suff_acc
@@ -23593,6 +23594,7 @@ a)dikophm :a)dikoph/mwn:wn_on
 a)dikoprag :a)dikopragh/s:hs_es:suff_acc
 a)dikopragh :a)dikopra/ghma:ma_matos:neut
 a)dikotrop :a)diko/tropos:os_on
+a)dikoxei :a)diko/xeir:r_ros:masc/fem
 a)dikoxrhmat :a)dikoxrh/matos:os_on
 a)din :a)dino/s:os_h_on:suff_acc
 a)diodeut :a)dio/deutos:os_on
@@ -25391,7 +25393,7 @@ a)krourobor :a)krourobo/rh:h_hs:fem
 a)kroxali :a)kroxa/lic:c_kos:masc/fem:ant_acc
 a)kroxan :a)kroxanh/s:hs_es:suff_acc
 a)kroxe :a)kro/xeiros:r_ros:masc/fem
-a)kroxei :a)kro/xeiros:r_ros:masc/fem
+a)kroxei :a)kro/xeir:r_ros:masc/fem :a)kro/xeiros:r_ros:masc/fem
 a)kroxeir :a)kro/xeiron:os_ou:neut :a)kro/xeiros:os_on :a)kroxeiri/s:is_idos:fem:suff_acc
 a)kroxeirhs :a)kroxei/risis:is_ews:fem:ionic
 a)kroxeiri :a)kroxei/rion:os_ou:neut :a)kroxeiri/a:h_hs:fem:stem_acc
@@ -28590,6 +28592,7 @@ a)nqrwpoqusi :a)nqrwpoqusi/a:h_hs:fem:stem_acc
 a)nqrwporraist :a)nqrwporrai/sths:hs_ou:masc:stem_acc
 a)nqrwpoth :a)nqrwpo/ths:s_tos:fem
 a)nqrwpotrof :a)nqrwpotro/fos:os_on:stem_acc
+a)nqrwpoxei :a)nqrwpo/xeir:r_ros:masc/fem
 a)nqrwpoxeir :a)nqrwpo/xeiron:os_ou:neut
 a)nqubris :a)nqu/brisis:is_ews:fem
 a)nqufaires :a)nqufai/resis:is_ews:fem
@@ -31168,6 +31171,7 @@ a)ra :a)/rac:c_kos:masc
 a)rab :a)/rabos:os_ou:masc :a)rabi/s:is_idos:fem:suff_acc
 a)rabotocot :a)rabotoco/ths:hs_ou:masc:stem_acc
 a)rac :a)/racis:is_ews:fem :a)ra/ca:h_hs:fem
+a)racixei :a)raci/xeir:r_ros:masc/fem
 a)racixeir :a)raci/xeiros:os_on
 a)rad :a)/rados:os_ou:masc
 a)rag :a)/ragma:ma_matos:neut
@@ -31428,6 +31432,7 @@ a)risterew :a)risterew/n:n_nos:masc:stem_acc
 a)risteromax :a)risteroma/xos:os_on:stem_acc
 a)risterophr :a)ristero/phros:os_on
 a)risterostat :a)risterosta/ths:hs_ou:masc:stem_acc
+a)risteroxei :a)ristero/xeir:r_ros:masc/fem
 a)risteu :a)ri/steuma:ma_matos:neut
 a)risteut :a)risteuth/s:hs_ou:masc:suff_acc
 a)risteutik :a)risteutiko/s:os_h_on:suff_acc
@@ -31502,6 +31507,7 @@ a)rktik :a)rktiko/s:os_h_on:suff_acc
 a)rktomorf :a)rkto/morfos:os_on
 a)rktotrof :a)rktotro/fos:os_on:stem_acc
 a)rktour :*)arktou=ros:os_ou:masc:stem_acc
+a)rktoxei :a)rkto/xeir:r_ros:masc/fem
 a)rktul :a)rktu/los:os_ou:masc:stem_acc
 a)rktw| :a)rktw=|os:os_h_on:stem_acc
 a)rku :a)/rkuon:os_ou:neut
@@ -32938,6 +32944,7 @@ a)xaristi :a)xaristi/a:h_hs:fem:stem_acc
 a)xarit :a)xa/ritos:os_on
 a)xasmht :a)xa/smhtos:os_on
 a)xat :a)xa/ths:hs_ou:masc:stem_acc
+a)xei :a)/xeir:r_ros:masc/fem
 a)xeim :a)xei/mwn:wn_on
 a)xeimant :a)xei/mantos:os_on
 a)xeimast :a)xei/mastos:os_on
@@ -34544,6 +34551,7 @@ barutonht :barutonhte/os:verb_adj2:suff_acc
 baruupn :baru/upnos:os_on
 baruwd :baruw/dhs:hs_es:stem_acc
 baruwdun :baruw/dunos:os_on
+baruxei :baru/xeir:r_ros:masc/fem
 baruxeil :baru/xeilos:os_on
 baruxeim :baruxei/mwn:wn_on
 baruxord :baru/xordos:os_on
@@ -35462,6 +35470,7 @@ braxuton :braxu/tonos:os_on
 braxutraxhl :braxutra/xhlos:os_on
 braxuupn :braxu/upnos:os_on
 braxuwt :braxu/wtos:os_on
+braxuxei :braxu/xeir:r_ros:masc/fem
 braxuxroni :braxuxro/nios:os_h_on
 brebi :bre/bion:os_ou:neut
 brec :bre/cis:is_ews:fem
@@ -35484,6 +35493,7 @@ brhg :brh=gma:ma_matos:neut
 bri :bri/a:h_hs:fem:stem_acc
 briar :briaro/s:os_h_on:suff_acc
 briaroth :briaro/ths:s_tos:fem
+briaroxei :briaro/xeir:r_ros:masc/fem
 brier :briaro/s:os_h_on:ionic:suff_acc
 brigk :bri/gkos:os_ou:masc
 brigx :brigxo/s:os_on:suff_acc
@@ -38337,6 +38347,7 @@ dixarakt :dixa/raktos:os_on
 dixas :di/xasis:is_ews:fem
 dixasm :dixasmo/s:os_ou:masc:suff_acc
 dixast :dixasth/s:hs_ou:masc:suff_acc :dixasto/s:os_h_on:suff_acc
+dixei :di/xeir:r_ros:masc/fem
 dixhl :di/xhlos:os_on
 dixhlhs :dixh/lhsis:is_ews:fem
 dixhli :dixhli/a:h_hs:fem:stem_acc
@@ -41397,6 +41408,7 @@ e)ggastri :e)gga/strios:os_on
 e)ggastrimaxair :e)ggastrima/xaira:a_hs:fem
 e)ggastrimuq :e)ggastri/muqos:os_on
 e)ggastrit :e)ggastri/ths:hs_ou:masc:stem_acc
+e)ggastroxei :e)ggastro/xeir:r_ros:masc/fem
 e)ggei :e)/ggaios:os_on
 e)ggeiofull :e)ggeio/fullos:os_on
 e)ggeiotok :e)ggeio/tokos:os_on
@@ -41656,6 +41668,7 @@ e)gxesfor :e)gxe/sforos:os_on :e)gxesfo/ros:os_on:stem_acc
 e)gxesimarg :e)gxesi/margos:os_on
 e)gxesimwr :e)gxesi/mwros:os_on
 e)gxesipal :e)gxesi/paloi:os_ou:masc:pl
+e)gxesixei :e)gxesi/xeir:r_ros:masc/fem
 e)gxespal :e)gxe/spalos:os_on
 e)gxhl :e)/gxhlos:os_ou:masc
 e)gxiktup :e)gxi/ktupos:os_on
@@ -45387,6 +45400,7 @@ e)pixaritwter :e)pi/xaris:os_h_on:irreg_comp
 e)pixart :e)pi/xartos:os_on :e)pixa/rths:hs_ou:masc:stem_acc
 e)pixartik :e)pixartiko/s:os_h_on:suff_acc
 e)pixarwp :e)pixarwpo/s:os_on:suff_acc
+e)pixei :e)pi/xeir:r_ros:masc/fem
 e)pixeil :e)pixeilh/s:hs_es:suff_acc
 e)pixeimeri :e)pixeime/rios:os_on
 e)pixeir :e)pi/xeira:os_ou:neut :e)pi/xeiron:os_ou:neut
@@ -50591,6 +50605,7 @@ garopwl :garopw/lhs:hs_ou:masc:stem_acc
 gas :ga/sos:os_ou:masc
 gass :ga/ssa:h_hs:fem
 gast :gasth/r:hr_eros:fem:gen:sg:suff_acc :gasth/r:hr_eros:fem:suff_acc
+gasteroxei :gastro/xeir:r_ros:masc/fem
 gastr :ga/stra:h_hs:fem :ga/stra:h_hs:fem:ionic :ga/stris:is_idos:fem
 gastrafet :gastrafe/ths:hs_ou:masc:stem_acc
 gastrai :gastrai/a:h_hs:fem:stem_acc
@@ -50612,6 +50627,7 @@ gastropt :gastro/pths:hs_ou:masc:stem_acc
 gastrorrafi :gastrorrafi/a:h_hs:fem:stem_acc
 gastrorroi :gastro/rroia:a_hs:fem
 gastrotom :gastroto/mos:os_on:stem_acc
+gastroxei :gastro/xeir:r_ros:masc/fem
 gastrw :ga/strwn:n_nos:masc
 gastrwd :gastrw/dhs:hs_es:stem_acc
 gatom ga_tom:gato/mos:os_on:stem_acc
@@ -53391,6 +53407,7 @@ i)sourani :i)soura/nios:os_h_on
 i)sourg :i)sourgo/s:os_on:suff_acc
 i)souy :i)so/uyos:os_on :i)souyh/s:hs_es:suff_acc
 i)sox :i)so/xoos:oos_oon
+i)soxei :i)so/xeir:r_ros:masc/fem
 i)soxeil :i)so/xeilos:os_on :i)soxeilh/s:hs_es:suff_acc
 i)soxno :i)so/xnoos:os_on:stem_acc
 i)soxord :i)so/xordos:os_on
@@ -54212,6 +54229,7 @@ kallitokei :kallito/keia:a_hs:fem
 kallitrapez :kallitra/pezos:os_on
 kallitrix :kalli/trixon:os_ou:neut :kalli/trixos:os_on
 kalliwnum :kalliw/numos:os_on
+kallixei :kalli/xeir:r_ros:masc/fem
 kallixoir :kalli/xoiros:os_on
 kallixor :kalli/xoros:os_on
 kallizug :kallizugh/s:hs_es:suff_acc
@@ -54738,7 +54756,7 @@ karkini :karki/nion:os_ou:neut :karkini/as:hs_ou:masc:stem_acc
 karkinobat :karkinoba/ths:hs_ou:masc:stem_acc
 karkinoux :karkinou=xon:os_ou:neut:stem_acc
 karkinouxi :karkinou/xion:os_ou:neut
-karkinoxei :karkino/xeires:r_ros:masc:pl
+karkinoxei :karkino/xeir:r_ros:masc/fem :karkino/xeires:r_ros:masc:pl
 karkinw :karki/nwma:ma_matos:neut
 karkinwd :karkinw/dhs:hs_es:stem_acc
 karkinwqr :karki/nwqron:os_ou:neut
@@ -54796,6 +54814,7 @@ karpotok :karpo/tokos:os_on :karpoto/kos:os_on:stem_acc
 karpotokei :karpoto/keia:a_hs:fem
 karpotoki :karpotoki/a:h_hs:fem:stem_acc
 karpotrof :karpotro/fos:os_on:stem_acc
+karpoxei :karpo/xeir:r_ros:masc/fem
 karpul :karpu/lh:h_hs:fem
 karpw :ka/rpwma:ma_matos:neut :kar/pwma:ma_matos:neut
 karpwd :karpw/dhs:hs_es:stem_acc
@@ -57447,6 +57466,7 @@ koloborin :kolobo/rinos:os_on
 koloboth :kolobo/ths:s_tos:fem
 kolobotraxhl :kolobotra/xhlos:os_on
 kolobour :kolobou=ros:os_on:stem_acc
+koloboxei :kolobo/xeir:r_ros:masc/fem
 kolobw :kolo/bwma:ma_matos:neut
 kolobwd :kolobw/dhs:hs_es:stem_acc
 kolobws :kolo/bwsis:is_ews:fem
@@ -57482,6 +57502,7 @@ kolouropuram :kolouropurami/s:is_idos:fem:suff_acc
 kolourws :kolou/rwsis:is_ews:fem
 kolous :ko/lousis:is_ews:fem :ko/lousma:ma_matos:neut
 koloust :kolousto/s:os_h_on:suff_acc
+koloxei :kolo/xeir:r_ros:masc/fem
 kolp :ko/lpos:os_ou:masc
 kolpabr :kolpabro/s:os_on:suff_acc
 kolpari :kolpa/rion:os_ou:neut
@@ -57613,6 +57634,7 @@ kontokunhgesi :kontokunhge/sion:os_ou:neut
 kontopaikt :kontopai/kths:hs_ou:masc:stem_acc
 kontopleuri :kontopleu/rion:os_ou:neut
 kontoporei :kontoporei/a:h_hs:fem:stem_acc
+kontoxei :konto/xeir:r_ros:masc/fem
 kontws :ko/ntwsis:is_ews:fem
 kontwt :kontwto/s:os_h_on:suff_acc
 kontwtit :kontwti/ths:hs_ou:masc:stem_acc
@@ -63902,6 +63924,7 @@ monouxi :monouxi/a:h_hs:fem:stem_acc
 monowr :mono/wros:os_on
 monoxal monoxa_l:mono/xhlos:os_on:doric
 monoxalin :monoxa/linos:os_on
+monoxei :mono/xeir:r_ros:masc/fem
 monoxhl :mono/xhlos:os_on
 monoxitw :monoxi/twn:n_nos:masc/fem:ant_acc
 monoxord :mono/xordos:os_on
@@ -67182,8 +67205,10 @@ o)morg :o)/morgma:ma_matos:neut
 o)mot :o)mo/ths:hs_ou:masc:stem_acc :o)moto/s:os_h_on:suff_acc
 o)motik :o)motiko/s:os_h_on:suff_acc
 o)mpn :o)/mpnh:h_hs:fem
+o)mpneioxei :o)mpnio/xeir:r_ros:masc/fem
 o)mpni :o)/mpnios:os_h_on
 o)mpniak :o)mpniako/s:os_h_on:suff_acc
+o)mpnioxei :o)mpnio/xeir:r_ros:masc/fem
 o)n :o)/nos:os_ou:masc/fem :o)nh/:h_hs:fem:suff_acc :o)ni/s:is_idos:fem:suff_acc
 o)na :o)na/s:s_dos:fem:stem_acc
 o)nag :o)nago/s:os_ou:masc:suff_acc
@@ -67403,6 +67428,7 @@ o)pisqotoni :o)pisqotoni/a:h_hs:fem:stem_acc
 o)pisqotonik :o)pisqotoniko/s:os_h_on:suff_acc
 o)pisqotonwd :o)pisqotonw/dhs:hs_es:stem_acc
 o)pisqourhtik :o)pisqourhtiko/s:os_h_on:suff_acc
+o)pisqoxei :o)pisqo/xeir:r_ros:masc/fem
 o)pisqoxeimw :o)pisqoxeimw/n:n_nos:masc:stem_acc
 o)pisqoyil :o)pisqo/yilos:os_on
 o)pisquper :o)pisqupe/ra:h_hs:fem
@@ -70017,6 +70043,7 @@ paranomhs :parano/mhsis:is_ews:fem
 paranomht :paranome/w:verb_adj2:suff_acc
 paranomhtik :paranomhtiko/s:os_h_on:suff_acc
 paranomi :paranomi/a:h_hs:fem:stem_acc
+parantixei :paranti/xeir:r_ros:masc/fem
 paranumf :para/numfos:os_ou:masc
 paraor para_or:parh/oros:os_on:doric
 parapaidagwghs :parapaidagw/ghsis:is_ews:fem
@@ -73011,6 +73038,7 @@ plousi :plou/sios:os_h_on
 plousiak :plousiako/s:os_h_on:suff_acc
 plousiodwr :plousio/dwros:os_on
 plousioth :plousio/ths:s_tos:fem
+plousioxei :plousio/xeir:r_ros:masc/fem
 plousioyux :plousio/yuxos:os_on
 plout :plou=tos1:os_ou:masc plou_t:plou=tos2:hs_eos:neut
 plouta :plou/tac:c_kos:masc
@@ -78784,6 +78812,7 @@ r(odostakt :r(odo/stakton:os_ou:neut
 r(odostef :r(odostefh/s:hs_es:suff_acc
 r(odostern :r(odo/sternos:os_on
 r(odounti :r(odounti/a:h_hs:fem:stem_acc
+r(odoxei :r(odo/xeir:r_ros:masc/fem
 r(odoxr :r(odo/xroos:oos_oon:stem_acc
 r(odoxrw :r(odo/xrws:s_tos:masc/fem:ant_acc
 r(odw :r(odw/n:n_nos:masc:stem_acc
@@ -80418,6 +80447,7 @@ sklhrotux :sklhrotuxh/s:hs_es:suff_acc
 sklhrourg :sklhrourgo/s:os_ou:masc:suff_acc
 sklhrourgi :sklhrourgi/a:h_hs:fem:stem_acc
 sklhrouxi :sklhrouxi/a:h_hs:fem:stem_acc
+sklhroxei :sklhro/xeir:r_ros:masc/fem
 sklhroyux :sklhro/yuxos:os_on
 sklhruntik :sklhruntiko/s:os_h_on:suff_acc
 sklhrus :sklh/rusma:ma_matos:neut
@@ -84218,6 +84248,7 @@ tektonarx :tekto/narxos:os_on
 tektonei tektonei_:tektonei=on:os_ou:neut:stem_acc
 tektoni :tektoni/a:h_hs:fem:stem_acc
 tektonik :tektoniko/s:os_h_on:suff_acc
+tektonoxei :tektono/xeir:r_ros:masc/fem
 tektosun :tektosu/nh:h_hs:fem:stem_acc
 tel :te/lma:ma_matos:neut :te/los:hs_eos:neut
 telamw :telamw/n:n_nos:masc/fem:stem_acc
@@ -84667,6 +84698,7 @@ tetraw :tetra/wn:n_nos:masc
 tetrawnum :tetraw/numos:os_on
 tetrawt :tetra/wtos:os_on
 tetrax :tetra/xoos:oos_oon:stem_acc
+tetraxei :tetra/xeir:r_ros:masc/fem
 tetraxitw :tetraxi/twn:n_nos:masc
 tetraxoinik :tetraxoi/nikos:os_on
 tetraxord :tetra/xordos:os_on
@@ -85858,6 +85890,7 @@ trixalki :trixalki/a:h_hs:fem:stem_acc
 trixapt :tri/xaptos:os_on
 trixarakt :trixa/raktos:os_on
 trixast :trixasto/s:os_h_on:suff_acc
+trixei :tri/xeir:r_ros:masc/fem
 trixhlab :trixh/labon:os_ou:neut
 trixi :tri/xion:os_ou:neut :trixi/a:h_hs:fem:stem_acc :trixi/as:hs_ou:masc:stem_acc
 trixias :trixi/asis:is_ews:fem
