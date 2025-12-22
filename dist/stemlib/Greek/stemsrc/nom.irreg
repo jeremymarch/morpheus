@@ -300,6 +300,9 @@
 :wd:e(ni/   irreg_decl3 masc/neut dat sg
 :wd:e(/na   irreg_decl3 masc acc sg
 :wd:mi/a| irreg_decl3 sg os_h_on dat fem late
+:wd:e)/na   irreg_decl3 masc acc sg ionic late
+:wd:e)/nas irreg_decl3 masc nom sg late medieval
+:wd:e)/nan irreg_decl3 masc acc sg late medieval
 
 :le:e)gw/
 :wd:e)gw/ pron1  1st sg masc fem nom voc   
@@ -972,8 +975,8 @@
 :wd:tou/toin   pron_adj1 masc/neut dat dual
 :wd:tou/toii+n   pron_adj1 masc/neut dat dual epic
 :wd:tau/tain   pron_adj1 fem dat dual
-:wd:tou/tw   pron_adj1 masc acc dual
-:wd:tau/ta_   pron_adj1 fem acc dual
+:wd:tou/tw   pron_adj1 masc fem neut nom acc dual
+:wd:tau/ta_   pron_adj1 fem acc dual late
 :wd:tautw=n   pron_adj1 fem gen pl
 :wd:tauta=n   pron_adj1 fem gen pl doric aeolic
 :wd:taute/wn   pron_adj1 fem gen pl epic ionic
@@ -992,6 +995,7 @@
 :wd:tou/tous   pron_adj1 masc acc pl
 :wd:tou/tws   pron_adj1 masc acc pl doric
 :wd:tau/ta_s   pron_adj1 fem acc pl
+tau/ta dual fem in Procopius, but usually misprint
 
 :le:pai=s
 :wd:pai=s irreg_decl3 masc fem nom sg
@@ -1415,6 +1419,7 @@
 :wd:tou= indecl gen sg attic
 :wd:tw=| indecl dat sg attic
 :wd:ti/w| indecl dat sg aeolic
+:wd:ti/oisi indecl dat pl aeolic
 :wd:te/wn indecl gen pl ionic 
 :wd:te/oisi indecl dat pl ionic
 :wd:toi=si indecl dat pl attic

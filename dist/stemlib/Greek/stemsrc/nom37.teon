@@ -26,6 +26,9 @@
 :le:gelwtopoie/w
 :aj:gelwtopoiht verb_adj2 suff_acc
 
+:le:gnwmateu/w
+:aj:gnwmateut verb_adj2 suff_acc
+
 :le:grhgore/w
 :aj:grhgorht verb_adj2 suff_acc
 
@@ -53,6 +56,9 @@
 :le:dialei/pw
 :aj:dialeipt verb_adj2 suff_acc
 
+:le:diamarture/w
+:aj:diamarturht verb_adj2 suff_acc
+
 :le:dianoi/gw
 :aj:dianoikt verb_adj2 suff_acc
 
@@ -64,6 +70,9 @@
 
 :le:diaskope/w
 :aj:diaskopht verb_adj2 suff_acc
+
+:le:diati/qhmi
+:aj:diaqet verb_adj2 suff_acc
 
 :le:diaxeiri/zw
 :aj:diaxeirist verb_adj2 suff_acc
@@ -155,6 +164,9 @@
 :le:kartere/w
 :aj:karterht verb_adj2 suff_acc
 
+:le:katagela/w
+:aj:katagelast verb_adj2 suff_acc
+
 :le:kataglukai/nw
 :aj:kataglukant verb_adj2 suff_acc
 
@@ -166,6 +178,9 @@
 
 :le:katakri/nw
 :aj:katakrit verb_adj2 suff_acc
+
+:le:katalogi/zomai
+:aj:katalogist verb_adj2 suff_acc
 
 :le:katamele/w
 :aj:katamelht verb_adj2 suff_acc
@@ -184,6 +199,9 @@
 
 :le:katarraqume/w
 :aj:katarra|qumht verb_adj2 suff_acc
+
+:le:kata/rxw
+:aj:katarkt verb_adj2 suff_acc
 
 :le:katasiga/w
 :aj:katasigast verb_adj2 suff_acc
@@ -220,6 +238,9 @@
 
 :le:leitourge/w
 :aj:leitourght verb_adj2 suff_acc
+
+:le:leptunte/on
+:aj:leptunt verb_adj2 suff_acc
 
 :le:loidorhte/on
 :aj:loidorht verb_adj2 suff_acc
@@ -269,6 +290,9 @@
 :le:molu/nw
 :aj:molunt verb_adj2 suff_acc
 
+:le:nauphge/w
+:aj:nauphght verb_adj2 suff_acc
+
 :le:nhsteu/w
 :aj:nhsteut verb_adj2 suff_acc
 
@@ -301,6 +325,9 @@
 
 :le:paranome/w
 :aj:paranomht verb_adj2 suff_acc
+
+:le:parata/ssw
+:aj:paratakt verb_adj2 suff_acc
 
 :le:parati/llw
 :aj:paratilt verb_adj2 suff_acc
@@ -398,6 +425,9 @@
 :le:prosapore/w
 :aj:prosaporht verb_adj2 suff_acc
 
+:le:prosarmo/zw
+:aj:prosarmost verb_adj2 suff_acc
+
 :le:prosbiba/zw
 :aj:prosbibast verb_adj2 suff_acc
 
@@ -428,6 +458,9 @@
 :le:proseu/xomai
 :aj:proseukt verb_adj2 suff_acc
 
+:le:prosefarmo/zw
+:aj:prosefarmost verb_adj2 suff_acc
+
 :le:prosko/ptw
 :aj:proskopt verb_adj2 suff_acc
 
@@ -451,6 +484,12 @@
 
 :le:protere/w
 :aj:proterht verb_adj2 suff_acc
+
+:le:proti/qhmi
+:aj:proqet verb_adj2 suff_acc
+
+:le:prou+polamba/nw
+:aj:proupolhpt verb_adj2 suff_acc
 
 :le:prowne/omai
 :aj:prownht verb_adj2 suff_acc
@@ -501,6 +540,9 @@
 :le:sumparape/mpw
 :aj:sumparapempt verb_adj2 suff_acc
 
+:le:sumya/llw
+:aj:sumyalt verb_adj2 suff_acc
+
 :le:sunainete/on
 :aj:sunainet verb_adj2 suff_acc
 
@@ -521,6 +563,9 @@
 
 :le:suneisa/gw
 :aj:suneisakt verb_adj2 suff_acc
+
+:le:suneiskomi/zw
+:aj:suneiskomist verb_adj2 suff_acc
 
 :le:sunekde/xomai
 :aj:sunekdekt verb_adj2 suff_acc
@@ -624,11 +669,17 @@
 :le:a)nakalu/ptw
 :aj:a)nakalupt verb_adj2 suff_acc
 
+:le:a)nakine/w
+:aj:a)nakinht verb_adj2 suff_acc
+
 :le:a)nakla/w
 :aj:a)naklast verb_adj2 suff_acc
 
 :le:a)nakoufi/zw
 :aj:a)nakoufist verb_adj2 suff_acc
+
+:le:a)nalogi/zomai
+:aj:a)nalogist verb_adj2 suff_acc
 
 :le:a)namenhte/on
 :aj:a)namenht verb_adj2 suff_acc
@@ -653,6 +704,9 @@
 
 :le:a)naskope/w
 :aj:a)naskopht verb_adj2 suff_acc
+
+:le:a)natiqhnhte/on
+:aj:a)natiqhnht verb_adj2 suff_acc
 
 :le:a)ne/xw
 :aj:a)nasxet verb_adj2 suff_acc
@@ -693,6 +747,9 @@
 :le:a)ntidiaste/llw
 :aj:a)ntidiastalt verb_adj2 suff_acc
 
+:le:a)ntiparati/qhmi
+:no:a)ntiparaqet  verb_adj2 suff_acc
+
 :le:a)ntipoie/w
 :aj:a)ntipoiht verb_adj2 suff_acc
 
@@ -707,6 +764,9 @@
 
 :le:a)pofe/rw
 :aj:a)penekt verb_adj2 suff_acc
+
+:le:a)pofoita/w
+:aj:a)pofoitht verb_adj2 suff_acc
 
 :le:a)pithte/on
 :aj:a)pitht verb_adj2 suff_acc
@@ -768,6 +828,9 @@
 :le:a)rreni/zw
 :aj:a)rrenist verb_adj2 suff_acc
 
+:le:a)farmo/zw
+:aj:a)farmost verb_adj2 suff_acc
+
 :le:a)fermhneu/w
 :aj:a)fermhneut verb_adj2 suff_acc
 
@@ -789,6 +852,9 @@
 :le:e)gkatamei/gnumi
 :aj:e)gkatamikt verb_adj2 suff_acc
 
+:le:e)gkatati/qhmi
+:aj:e)gkataqet verb_adj2 suff_acc
+
 :le:e)gkata/rxomai
 :aj:e)gkatarkt verb_adj2 suff_acc
 
@@ -803,6 +869,9 @@
 
 :le:e)gxwre/w
 :aj:e)gxwrht verb_adj2 suff_acc
+
+:le:e)kbai/nw
+:aj:e)kbat verb_adj2 suff_acc
 
 :le:e)kdei/knumi
 :aj:e)kdeikt verb_adj2 suff_acc
@@ -901,6 +970,12 @@
 :le:e)panakale/w
 :aj:e)panaklht verb_adj2 suff_acc
 
+:le:e)pane/xw
+:aj:e)panekt verb_adj2 suff_acc
+
+:le:e)pane/rxomai
+:aj:e)panelqet verb_adj2 suff_acc
+
 :le:e)papore/w
 :aj:e)paporht verb_adj2 suff_acc
 
@@ -960,6 +1035,9 @@
 
 :le:e)pisfragi/zw
 :aj:e)pisfragist verb_adj2 suff_acc
+
+:le:e)pitugxa/nw
+:aj:e)piteukt verb_adj2 suff_acc
 
 :le:e)pitimhte/on
 :aj:e)pitimht verb_adj2 suff_acc

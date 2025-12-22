@@ -45,16 +45,14 @@
 :le:cenodoke/w
 :de:ceinodok ew_denom poetic
 
-:le:fateu/w
-:de:fat euw comp_only
+#:le:fateu/w
+#:de:fat euw comp_only
+#merge w/ fhteuw in vbs simp
 
 :le:peparei=n
 :vs:pepar aor2 poetic
 
 #verbs entered for pindar in pass2
-
-:le:a)/gamai
-:de:a)g azw pres mp
 
 #verbs entered for herod
 
@@ -173,9 +171,6 @@
 
 :le:boiwtarxe/w
 :de:boiwtarx ew_denom
-
-:le:kui/skw
-:vs:kui+sk w_stem
 
 :le:e(llanodike/w
 :de:e(lla_no-di^k ew_denom
@@ -314,8 +309,8 @@
 :le:a(rmatodrome/w
 :de:a(rmatodrom ew_denom
 
-:le:sunousia/zw
-:de:sunousi azw
+#:le:sunousia/zw
+#:de:sunousi azw
 
 :le:o)rneo/w
 :de:o)rne ow_denom
@@ -496,6 +491,8 @@
 
 :le:a)norqo/w
 :vs:a)nwrqws aor1 ind act attic
+:vs:a)nwrq ow_pr imperf
+#ugly accommodations for double augment
 
 #verbs added for xenophon
 

@@ -334,6 +334,8 @@
 
 :le:a)po/prosqen
 :wd:a)po/prosqen adverb
+:wd:a)poprosqe/n adverb late
+#dubious?
 
 :le:a)po/rhma
 :no:a)porh ma_matos neut
@@ -959,6 +961,8 @@
 
 :le:e(chkontou/ths
 :aj:e(chkontout hs_es stem_acc
+:no:e(chkontout hs_ou stem_acc masc
+#not kidding
 
 :le:e)coi/khsis
 :no:e)coikhs is_ews fem
@@ -2076,9 +2080,6 @@
 :le:prosdo/khma
 :no:prosdokh ma_matos neut
 
-:le:pro/slhyis
-:no:proslhy is_ews fem
-
 :le:prosomilhtiko/s
 :aj:prosomilhtik os_h_on suff_acc
 
@@ -2323,7 +2324,8 @@
 :no:sunuf h_hs fem suff_acc
 
 :le:sunw|di/a
-:no:sunw|di h_hs fem
+:no:sunw|di h_hs fem stem_acc
+:no:sunaoidi h_hs fem stem_acc
 
 :le:su/nwsis
 :no:sunws is_ews fem
@@ -2664,13 +2666,13 @@
 :no:*lusi hs_ou masc pers_name
 
 :le:*lusani/as
-:no:*lusani hs_ou masc pers_name
+:no:*lusani hs_ou masc
 
 :le:*nikh/ratos
-:no:*nikhrat os_ou masc pers_name 
+:no:*nikhrat os_ou masc 
 
 :le:*niki/as
-:no:*niki hs_ou masc pers_name 
+:no:*niki hs_ou masc 
 
 :le:*paianieu/s
 :no:*paiani eus_ews masc suff_acc
@@ -2678,11 +2680,8 @@
 :le:*peiraieu/s
 :no:*peirai eus_ews masc suff_acc
 
-:le:*pe/rdikkos
-:no:*perdikk os_ou masc
-
 :le:*peri/andros
-:no:*periandr os_ou masc pers_name
+:no:*periandr os_ou masc
 
 :le:*pi/ndaros
 :no:*pindar os_ou masc
