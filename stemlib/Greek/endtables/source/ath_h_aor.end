@@ -18,8 +18,8 @@ a=mes ath_h_aor 1st pl aor subj act doric
 a@ihn_opt ath_h_aor aor act opt needs_acc
 hqi ath_h_aor aor act imperat 2nd sg
 a_qi ath_h_aor 2nd sg aor imperat act doric
-h@ath_imp_a ath_h_aor aor imperat act sg dual  not 2nd sg
-h/tw ath_h_aor aor 3rd sg act imperat  epic 
+h@ath_imp_a ath_h_aor aor imperat act sg dual pl  not 2nd sg
+h/tw ath_h_aor aor 3rd sg act imperat 
 a_@ath_imp_a ath_h_aor aor imperat act sg dual doric not 2nd sg
 h@ath_imp_a ath_h_aor aor imperat act pl  not 3rd
 a_@ath_imp_a ath_h_aor aor imperat act pl  not 3rd

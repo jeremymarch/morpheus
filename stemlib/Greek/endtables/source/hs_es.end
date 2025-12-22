@@ -2,13 +2,24 @@ ews hs_es adverbial
 hs hs_es nom sg masc fem 
 es hs_es nom voc acc sg neut 
 es hs_es voc sg masc fem 
-e@decl3 hs_es masc fem neut
-wn hs_es gen pl masc fem neut
+e@decl3 hs_es masc fem neut not pl
+ewn hs_es gen pl masc fem neut epic ionic
+wn hs_es contr gen pl masc fem neut
+esi hs_es dat pl masc fem neut
+essi hs_es dat pl masc fem neut poetic
+e+esi hs_es dat pl masc fem neut poetic
+e+essi hs_es dat pl masc fem neut poetic
 oin hs_es gen dat dual masc fem neut
-eis hs_es contr masc fem acc pl
+eis hs_es contr masc fem nom acc voc pl
+e+es hs_es masc fem nom voc pl epic ionic
+e+as hs_es masc fem acc pl epic ionic
 e-i+ hs_es masc fem neut dat sg epic poetic
+ea hs_es neut nom acc voc pl
 e/steron hs_es adverbial comp
 ester@adj1 hs_es comp
 este/rws hs_es adv comp
 e/stata hs_es adverbial superl
 estat@adj1 hs_es superl
+h=s hs_es masc fem nom sg late
+ei=si masc fem neut dat pl late
+#eliminated h=s as acc pl, eisi is rare analogy from nom pl

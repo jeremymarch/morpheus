@@ -22,9 +22,12 @@ w@ath_imp_a omi_pr 2nd sg pres imperat act epic
 w@ath_imp_a omi_pr pres imperat act 2nd sg
 o@ath_imp_a omi_pr pres imperat act not 2nd sg
 o@s_sa_n omi_pr pres part act needs_acc
+ontj@decl1_sh fem pres part act needs_acc
 o@ath_mp_1 omi_pr pres ind mp 
 o@ath_mp_2 omi_pr imperf ind mp 
 o@pr_sub_mp omi_pr pres subj mp 
+w@ath_mp_1 omi_pr pers subj mp late
 o@imhn_opt omi_pr pres opt mp suff_acc
 o@ath_imp_mp omi_pr pres imperat mp
 omen@adj1 omi_pr pres part mp
+#tried to catch antepenult on subj

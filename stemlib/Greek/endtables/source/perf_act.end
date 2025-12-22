@@ -5,7 +5,7 @@ e@ath_inf_act perf_act perf inf act epic
 a_si perf_act perf act ind plural pers3  
 anti perf_act 3rd pl plup ind act doric
 anti perf_act perf act ind plural pers3   doric
-#@pr_imp_act perf_act perf imperat act  not 3rd pl
+#@pr_imp_act perf_act perf imperat act not 3rd pl
 @pr_sub_act perf_act perf act subj
 o@ihn_opt perf_act perf opt act sg
 @pr_opt_act perf_act perf opt act 
@@ -26,3 +26,5 @@ eimen perf_act 1st pl plup ind act late
 eite perf_act 2nd pl plup ind act late
 eisan perf_act 3rd pl plup ind act late
 e@ath_act_2 perf_act plup ind act   not  sg
+etw perf_act 3rd sg perf act imperat
+etwsan perf_act 3rd pl perf act imperat
