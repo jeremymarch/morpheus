@@ -125,7 +125,7 @@ aiwmi ath_h_aor
 aiwsi ath_h_aor
 aiwsin ath_h_aor
 amai ajw_pr ami_pr ami_short aw_fut aw_pr
-aman ajw_pr ami_aor aor1 aw_pr
+aman ajw_pr ami_aor ami_pr ami_short aor1 aw_pr
 amen ajw_pr ami_aor ami_pr aor1 ath_h_aor aw_fut aw_pr perf2_act perf_act
 amena ajw_pr ami_aor ami_pr ami_short aor1 ath_h_aor aw_fut aw_pr
 amena| ajw_pr ami_aor ami_pr ami_short aor1 ath_h_aor aw_fut aw_pr perf2_act
@@ -338,6 +338,7 @@ co perfp_g
 datai perfp_d
 dato perfp_d
 dmai perfp_d
+dman perfp_d
 dmena perfp_d
 dmena| perfp_d
 dmenain perfp_d
@@ -532,7 +533,7 @@ eiwmi ami_aor aor2_pass ath_h_aor emi_aor
 eiwsi ami_aor aor2_pass ath_h_aor emi_aor
 eiwsin ami_aor aor2_pass ath_h_aor emi_aor
 emai emi_pr
-eman aor2_pass
+eman aor2_pass emi_aor emi_pr
 emen aor2 aor2_pass emi_aor emi_pr fut_perf perf_act reg_fut w_stem
 emena emi_aor emi_pr
 emenai aor2 aor2_pass emi_aor emi_pr fut_perf perf_act reg_fut w_stem
@@ -883,6 +884,7 @@ gcqwsan perfp_gx
 gktai perfp_gg perfp_gx
 gkto perfp_gg perfp_gx
 gmai perfp_g perfp_gg perfp_gx
+gman perfp_g perfp_gg perfp_gx
 gmena perfp_g perfp_gg perfp_gx
 gmena| perfp_g perfp_gg perfp_gx
 gmenain perfp_g perfp_gg perfp_gx
@@ -954,6 +956,7 @@ h|s ajw_pr ami_aor ami_pr aor1 aor2 aor2_pass aor_pass ath_h_aor ath_secondary a
 h|si ajw_pr ami_aor ami_pr aor1 aor2 aor2_pass aor_pass ath_h_aor ath_secondary emi_aor emi_pr ew_pr perf2_act perf_act w_stem
 h|sin ajw_pr ami_aor ami_pr aor1 aor2 aor2_pass aor_pass ath_h_aor ath_secondary emi_aor emi_pr ew_pr perf2_act perf_act w_stem
 h|sqa ajw_pr ami_aor ami_pr aor1 aor2 aor2_pass aor_pass ath_h_aor ath_secondary emi_aor emi_pr ew_pr perf2_act perf_act w_stem
+hman ath_h_aor
 hmen ajw_pr ami_aor aor2_pass aor_pass ath_h_aor emi_pr ew_pr
 hmenai ajw_pr ami_aor aor2_pass aor_pass ath_h_aor emi_pr ew_pr
 hmeqa ath_h_aor
@@ -1140,6 +1143,7 @@ iwsin ami_aor ami_pr aor2_pass aor_pass ath_h_aor emi_aor ew_pr perf2_act
 ktai perfp_g
 kto perfp_g
 lmai perfp_l
+lman perfp_l
 lmena perfp_l
 lmena| perfp_l
 lmenain perfp_l
@@ -1191,6 +1195,7 @@ lsqwsan perfp_l
 ltai perfp_l
 lto perfp_l
 mai ath_primary perfp_vow
+man ath_primary ath_secondary perfp_vow
 men ath_primary ath_secondary
 mena ath_primary ath_secondary perfp_vow
 mena| ath_primary ath_secondary perfp_vow
@@ -1241,6 +1246,7 @@ mfqwsan perfp_mp
 mhn ath_primary ath_secondary perfp_vow
 mi ath_primary
 mmai perfp_mp perfp_n perfp_p
+mman perfp_mp perfp_p
 mmena perfp_mp perfp_p
 mmena| perfp_mp perfp_p
 mmenain perfp_mp perfp_p
@@ -1338,7 +1344,7 @@ oithn aor2 ath_w_aor ew_fut ew_pr fut_perf omi_aor omi_pr ow_pr perf2_act perf_a
 oito aor2 ath_w_aor emi_aor ew_fut ew_pr fut_perf omi_aor omi_pr ow_pr reg_fut w_stem ww_pr
 oiton aor2 ath_w_aor ew_fut ew_pr fut_perf omi_aor omi_pr ow_pr perf2_act perf_act reg_fut w_stem ww_pr
 omai aor1 emi_aor fut_perf omi_pr reg_fut w_stem
-oman aor2 w_stem
+oman aor2 omi_aor omi_pr w_stem
 omen aor1 aor2 ath_w_aor fut_perf omi_aor omi_pr reg_fut w_stem
 omena aor2 fut_perf omi_aor omi_pr reg_fut w_stem
 omena| aor2 fut_perf omi_aor omi_pr reg_fut w_stem
@@ -1668,6 +1674,7 @@ qi ath_primary ath_secondary
 ratai perfp_r
 rato perfp_r
 rmai perfp_r
+rman perfp_r
 rmena perfp_r
 rmena| perfp_r
 rmenain perfp_r
@@ -1724,6 +1731,7 @@ san ath_primary ath_secondary
 si ath_primary
 sin ath_primary
 smai perfp_d perfp_n perfp_s perfp_v
+sman perfp_d perfp_n perfp_s perfp_v
 smena perfp_d perfp_n perfp_s perfp_v
 smena| perfp_d perfp_n perfp_s perfp_v
 smenain perfp_d perfp_n perfp_s perfp_v
@@ -1840,6 +1848,7 @@ uih|sin perf_act
 uihs perf_act
 uiwn perf_act
 umai umi_pr
+uman umi_pr
 umen ath_u_aor umi_pr
 umena ath_u_aor umi_pr
 umenai ath_u_aor umi_pr
@@ -1883,6 +1892,7 @@ umesqa umi_pr
 umhn umi_pr
 umi umi_pr
 ummai perfp_un
+umman perfp_un
 ummena perfp_un
 ummena| perfp_un
 ummenain perfp_un
