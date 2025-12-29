@@ -31,10 +31,17 @@
 :le:*(agno/filos
 :no:*(agnofil	os_ou masc
 
+:le:*)agnou=s
+:no:*)agn oeis_oentos masc
+:no:*(agn oeis_oentos masc
+:wd:*)agnounto/qen adverb
+:wd:*)agnou=nta/de adverb
+#breathing varies.
 
-:le:*(agnou/sios
-:no:*(agnousi	os_ou masc
-
+:le:*)agnou/sios
+:no:*)agnousi	os_ou masc
+:no:*(agnousi   os_ou masc
+#breathing varies. conforming to root and TLG for lemma
 
 :le:*(ali/arxos
 :no:*(aliarx	os_ou masc
@@ -398,14 +405,23 @@
 :le:*)akte/wn
 :no:*)aktew	n_nos masc
 
+:le:*)akuli/a
+:no:*)akuli h_hs fem stem_acc
 
-:le:*)aku/lios
-:no:*)akuli	os_ou masc
+:le:*)akuliano/s
+:no:*)akulian os_ou suff_acc masc
 
+:le:*)akuli=na
+:no:*)akuli_n a_hs stem_acc fem
+:no:*)akulin a_hs stem_acc fem
+
+:le:*)akuli=nos
+:no:*)akuli_n os_ou stem_acc masc
 
 :le:*)aku/llios
-:no:*)akulli	os_ou masc
-
+:no:*)akulli os_ou masc
+:no:*)akuli os_ou masc
+#Aquilius Latin
 
 :le:*)alazo/nios
 :no:*)alazoni	os_ou masc
@@ -469,14 +485,6 @@
 :no:*)amfidam	os_ou masc
 
 
-:le:*)amfi/wn
-:no:*)amfiw	n_nos masc
-
-
-:le:*)amfia/rhos
-:no:*)amfiarh	os_ou masc
-
-
 :le:*)amnw/n
 :no:*)amnw	n_nos masc stem_acc
 
@@ -534,11 +542,6 @@
 
 :le:*)apollodw/reios
 :no:*)apollodwrei	os_ou masc
-
-
-:le:*)apollwnia=tis
-:no:*)apollwnia_t	is_ews masc stem_acc
-:no:*)apollwnia_t	is_idos fem stem_acc
 
 :le:*)apollw=s
 :no:*)apoll wCs_w suff_acc masc
@@ -2539,6 +2542,7 @@
 
 :le:*ou)i/nios
 :no:*ou)ini	os_ou masc
+:no:*bini     os_ou masc
 
 
 :le:*ou)idaki/lios
@@ -2781,6 +2785,7 @@
 
 :le:*qeari/wn
 :no:*qeariw	n_nos masc
+:no:*qewriw     n_nos masc
 
 
 :le:*qemi/swn
@@ -2837,7 +2842,7 @@
 
 :le:*qu/bris
 :no:*qubr	is_ews masc
-:no:*qubr	is_idos fem
+:no:*qubr	is_idos masc
 
 
 :le:*quw/nixos

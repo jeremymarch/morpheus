@@ -311,6 +311,9 @@
 :vb:e)/skomen   irreg_mi imperf ind act 1st pl epic ionic iterative unaugmented
 :vb:e)/skete   irreg_mi imperf ind act 2nd pl epic ionic iterative unaugmented
 :vb:e)skon   irreg_mi imperf ind act 3rd pl epic ionic iterative unaugmented
+:vb:e)/nai	irreg_mi pres ind act 3rd sg late medieval
+:vb:e)/nai      irreg_mi pres inf act late
+#Alex for real, and Herodian's theoretical form
 
 :le:ei)=mi
 :vb:ei) irreg_mi  sg pres ind act 2nd 
@@ -476,11 +479,15 @@
 :vb:h)/i+on   irreg_mi imperf ind act 3rd pl epic ionic
 :vb:h)=|n   irreg_mi imperf ind act 3rd pl epic doric aeolic
 :vb:h)=|en   irreg_mi imperf ind act 3rd pl epic doric aeolic
+:vb:i)ei    irreg_mi imperf ind act 3rd sg late
+:vb:i)esan irreg_mi imperf ind act 3rd pl late
+:vb:i)e irreg_mi pres imperat act 2sg late 
 
 :le:i(/hmi
 :vb:i(ei=si irreg_mi pres ind act pl 3rd epic
 :vs:i( irreg_mi pres imperat act emi_pr  act
 :vb:i(/ei irreg_mi pres imperat act 2nd sg
+:vb:i(e irreg_mi pres imperat act 2nd sg late comp_only
 :vb:i(e/nai irreg_mi inf  pres act
 :vb:i(/esqai irreg_mi inf pres mp
 :vb:ei(=nai irreg_mi inf  aor act
@@ -493,6 +500,7 @@
 :vb:i(/ein irreg_mi imperf ind act sg 1st sg epic
 :vb:i(/+ein irreg_mi imperf ind act sg 1st sg epic
 :vs:h(k aor1 aor ind  sg attic
+:vs:h(k aor1 aor ind  pl late
 :vs:h(k aor1 aor mid  
 :vs:e(hk aor1 aor ind  epic has_augment
 :vs:i(hs aor1 aor ind  aor1 late 3rd sg aor ind act
@@ -522,6 +530,8 @@
 :vb:i(/ete   irreg_mi pres ind act 2nd pl
 :vb:i(a=sin   irreg_mi pres ind act 3rd pl nu_movable
 :vb:i(a=si   irreg_mi pres ind act 3rd pl
+:vb:i(/asin   irreg_mi pres ind act 3rd pl nu_movable late
+:vb:i(/asi   irreg_mi pres ind act 3rd pl late
 :vb:i(nti/   irreg_mi pres ind act 3rd pl doric
 :vb:i(w=   irreg_mi pres subj act 1st sg suff_acc
 :vb:i(/w   irreg_mi pres subj act 1st sg suff_acc
@@ -1186,6 +1196,7 @@
 :vb:h(ntai   ath_primary pres ind mid 3rd pl
 :vb:h(/mhn   ath_primary imperf ind mid 1st sg
 :vb:h(=so   ath_primary imperf ind mid 2nd sg
+:vb:h(=to   ath_primary imperf ind mid 3rd sg
 :vb:h(=sto   ath_primary imperf ind mid 3rd sg
 :vb:h(=sqon   ath_primary imperf ind mid 2nd dual
 :vb:h(/sqhn   ath_primary imperf ind mid 3rd dual
@@ -1242,6 +1253,7 @@
 :vb:e)kaqh/mhn   ath_primary imperf ind mid 1st sg
 #:vb:h(=so   ath_primary imperf ind mid 2nd sg
 :vb:e)ka/qhto   ath_primary imperf ind mid 3rd sg
+:vb:ka/qhto   ath_primary imperf ind mid 3rd sg unaugmented late
 #:vb:h(=sqon   ath_primary imperf ind mid 2nd dual
 #:vb:h(/sqhn   ath_primary imperf ind mid 3rd dual
 #:vb:h(/meqa   ath_primary imperf ind mid 1st pl

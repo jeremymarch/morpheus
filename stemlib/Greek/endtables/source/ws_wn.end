@@ -6,9 +6,10 @@ w^| ws_wn dat sg masc fem neut
 w^n ws_wn acc sg masc fem
 w^ ws_wn nom voc acc dual masc neut fem
 w|n ws_wn gen dat dual masc neut fem
-w| ws_wn nom voc pl masc fem
+w^| ws_wn nom voc pl masc fem
 a ws_wn nom voc acc pl neut fem
-w^n ws_wn gen pl masc neut fem
+wn ws_wn gen pl masc neut fem
 w|s ws_wn dat pl masc neut fem
 w|si ws_wn dat pl masc neut fem
 w^s ws_wn nom pl masc fem
+#quant of gen pl changedd

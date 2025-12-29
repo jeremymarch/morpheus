@@ -4,6 +4,7 @@ esk@imp_ind_a aor2 aor act ind iterative epic ionic
 esk@imp_ind_mp aor2 aor mid ind iterative epic ionic
 e@pr_inf_act aor2 aor act inf 
 en aor2 aor inf act doric needs_acc
+hn aor2 aor inf act doric
 @pr_inf_ath aor2 aor inf act epic
 @pr_inf_mp aor2 aor mid inf needs_acc
 @pr_sub_act aor2 aor subj act

@@ -1,10 +1,15 @@
 e/-ws us_u adverbial
-us us_u nom sg masc
-u us_u voc sg masc
+us us_u nom sg masc fem
+u us_u voc sg masc fem
 u us_u nom voc acc sg neut
-un us_u acc sg masc
-e-@decl3 us_u masc neut sg  not nom acc voc sg
-e-@decl3 us_u masc neut dual pl  not nom voc acc masc
-e-w^n us_u gen pl
-e-@decl3 us_u nom voc acc pl epic ionic
-eis us_u masc nom acc pl 
+un us_u acc sg masc fem
+e-@decl3 us_u masc fem neut sg  not nom acc voc sg
+e-@decl3 us_u masc neut dual pl  not nom voc acc masc dual
+e@decl3 us_u dat gen masc fem neut
+ea us_u neut nom voc acc pl
+e-w^n us_u masc fem neut gen pl
+e-@decl3 us_u masc fem neut nom voc acc pl epic ionic
+ees us_u masc fem nom voc pl
+e-es us_u masc fem nom voc pl
+e-as us_u acc pl masc fem
+eis us_u acc pl masc fem late

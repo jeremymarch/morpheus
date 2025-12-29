@@ -126,7 +126,8 @@
 :no:dia-dox os_ou masc fem
 
 :le:diadrasipoli/ths
-:no:dia-dra_si-poli_t hs_ou stem_acc   masc
+:no:dia-dra_si-poli_t hs_ou stem_acc masc
+:no:dia-drhsi-poli_t hs_ou stem_acc masc ionic
 
 :le:diadromh/
 :no:dia-drom h_hs suff_acc fem
@@ -417,6 +418,7 @@
 
 :le:diantai=os
 :aj:di-antai_ os_h_on stem_acc
+:aj:di-ante os_h_on stem_acc
 
 :le:diapa/lh
 :no:dia^-pal h_hs stem_acc fem
@@ -2766,9 +2768,11 @@
 :aj:dus-kinht os_on
 
 :le:duskleh/s
-:aj:dus-kle hs_es,suff_acc
-:wd:dus-kle/a hs_es masc fem acc sg
-:wd:dus-kle/a hs_es neut acc pl
+:aj:dus-kle hs_es suff_acc attic
+:aj:duskl hs_es suff_acc epic
+:wd:dus-klea=s hs_es masc fem acc pl
+#Thank you Uli and James
+#:wd:dus-kle/a hs_es neut acc pl
 
 :le:du/skleia
 :no:dus-klei a_hs fem
@@ -3344,6 +3348,8 @@
 :le:dwdekaeth/s
 :aj:dwdeka-et hs_es suff_acc
 :aj:dwdeka-et hs_es stem_acc
+:no:dwdekaet hs_ou masc pl stem_acc late
+:no:dwdekaet is_idos stem_acc
 
 :le:dwdeka/kis
 :wd:dwdeka/kis  adverb
@@ -3683,7 +3689,7 @@
 :aj:e)gertik os_h_on suff_acc
 
 :le:e)gkai/nia
-:no:e)gkaini os_ou neut pl
+:no:e)gkaini os_ou neut
 
 :le:e)gkallw/pisma
 :no:e)gkallwpis ma_matos neut
@@ -3777,6 +3783,7 @@
 
 :le:e)gku/klios
 :aj:e)g-kukli os_on
+:aj:e)n-kukli os_on late
 
 :le:e)gku/klwsis
 :no:e)gkuklws is_ews fem
@@ -4169,6 +4176,7 @@
 :wd:e)ei/kosi numeral epic
 :wd:e)ei/kosin numeral epic
 :wd:ei)/ka^ti numeral doric
+:wd:bei/ka^ti numeral doric
 
 :le:ei)kosipe/nte
 :wd:ei)kosipe/nte numeral
@@ -5160,8 +5168,8 @@
 :aj:e(kt verb_adj2 suff_acc
 
 :le:e(kthmo/rioi
-:no:e(kth-mori os_ou masc pl
-:no:e(kth-mor os_ou masc pl
+:no:e(kth-mori os_on
+:no:e(kth-mor os_on
 
 :le:e)/ktimos
 :aj:e)k-ti_m os_on
@@ -5818,6 +5826,7 @@
 
 :le:e)/mbruon
 :no:e)mbru os_ou neut
+:no:e)nbru os_ou neut
 
 :le:e)mbu/qios
 :aj:e)mbuqi os_h_on
@@ -5932,8 +5941,9 @@
 :le:e)/mpeiros
 :aj:e)m-peir os_on
 
-:le:e)mpela=do/n
-:wd:e)mpela=do/n	adverb
+:le:e)mpelado/n
+:wd:e)mpelado/n	adverb
+:wd:e)mpela/dhn adverb
 
 :le:e)mpe/ramos
 :aj:e)mpera^m os_on
@@ -6048,6 +6058,8 @@
 
 :le:e)mpro/sqios
 :aj:e)mprosqi os_on
+:aj:e)mprosqi os_h_on
+:aj:e)mprosqei os_on late
 
 :le:e)/mpuos
 :aj:e)m-pu os_on
@@ -6185,6 +6197,7 @@
 
 :le:e)nanti/os
 :aj:e)n-anti os_h_on stem_acc
+:aj:e)n-anti os_h_on late
 
 :le:e)nantio/ths
 :no:e)nantioth s_tos   fem 	ant_acc
@@ -6424,6 +6437,8 @@
 
 :le:e)nereuqh/s
 :aj:e)n-ereuq hs_es suff_acc
+:aj:e)n-ereuq hs_es
+#accent varies
 
 :le:e)/nerqe
 :wd:e)/nerqe prep
@@ -6432,7 +6447,7 @@
 :wd:ne/rqen prep poetic nu_movable
 
 :le:e)/neroi
-:no:e)ner os_ou pl	masc
+:no:e)ner os_ou	masc
 
 :le:e)/nersis
 :no:e)ners is_ews fem
@@ -6471,7 +6486,8 @@
 :le:e)nh/laton
 :no:e)nhla^t os_ou neut
 
-:le:e)nh/likos
+:le:e)nh=lic
+:no:e)nhli c_kos ant_acc masc fem
 :aj:e)nhli^k os_on
 
 :le:e)nh/rhs
@@ -6548,14 +6564,24 @@
 :le:e)niauto/s
 :no:e)niaut os_ou suff_acc masc
 
-:le:e)niaxh=
-:wd:e)nia^xh=	adverb
+:le:e)niaxh=|
+:wd:e)nia^xh=|	adverb
+:wd:e)nia^xh=   adverb
 
 :le:e)niaxou=
 :wd:e)nia^xou=	adverb
+:wd:e)nia^xho/qi   adverb
+
+:le:e)niaxo/qen
+:wd:e)niaxo/qen adverb
+
+:le:e(niaxw=s
+:wd:e(niaxw=s adverb
+#simpl. once
 
 :le:e)/nioi
-:aj:e)ni os_h_on pl
+:aj:e)ni os_h_on
+#handful of late sg.s
 
 :le:e)ni/ote
 :wd:e)ni/ote	adverb
@@ -6573,12 +6599,12 @@
 :le:e)nnae/thros
 :aj:e)nna-ethr os_on
 
-:le:e)nnaeth/s
+:le:e)nnae/ths
 :aj:e)nna-et hs_es suff_acc
 :aj:e)nna-et hs_es
 :aj:e)nna-et is_idos stem_acc  fem
 
-:le:e)nnae/ths
+:le:e)nnae/ths2
 :no:e)nnaet hs_ou stem_acc   masc
 
 :le:e)nna/kis
@@ -6698,9 +6724,9 @@
 :le:e)/norxos
 :aj:e)n-orx os_on
 
-:le:e)/nos
-:wd:e)/nnhfi os_h_on fem dat pl epic instrumental
-:wd:e)/nhfi os_h_on fem dat pl epic instrumental
+:le:e)/nos2
+:wd:e)/nnhfi epic adverb
+:wd:e)/nhfi  epic adverb
 :aj:e)n os_h_on,epic fem acc sg 
 
 :le:e(/nos
@@ -6881,16 +6907,18 @@
 :le:e)nwph/
 :no:e)n-wp h_hs suff_acc fem
 :wd:e)nwph=| adverb
+:no:e)n-wp h_hs fem late
 
 :le:e)nw/pia
 :no:e)nwpi os_ou neut pl
 
 :le:e)nw/pios
 :aj:e)n-wpi os_on
-:wd:e)nw/pion prep
-
-:le:e)c
-:wd:e)c prep
+:wd:e)nw/pion adverb
+:wd:e)nw=pa adverb
+:wd:e)/nwpa adverb
+:aj:e)nwpi os_on stem_acc late
+#enantion analogy I take it
 
 :le:e(/c
 :wd:e(/c numeral
@@ -7013,6 +7041,7 @@
 
 :le:e)ca/pina
 :wd:e)ca/pi^na adverb
+:wd:e)capi/na adverb
 
 :le:e)capi/naios
 :aj:e)capinai os_h_on
@@ -7021,6 +7050,8 @@
 
 :le:e)capi/nhs
 :wd:e)ca^pi/^nhs	adverb
+:wd:e)ca^pi/^na_s        adverb
+:wd:e)ca^pi/^nws        adverb
 
 :le:e(capla/sios
 :aj:e(ca^-plasi os_h_on
@@ -7404,6 +7435,8 @@
 
 :le:e)/paqlon
 :no:e)p-aql os_ou neut
+:no:e)p-aeqli os_ou neut late
+:no:e)p-aqli os_ou neut late
 
 :le:e)paigiali=tis
 :no:e)p-aigiali_t is_idos stem_acc  	fem
@@ -7522,7 +7555,9 @@
 :no:e)panorqws is_ews fem
 
 :le:e)pa/nths
-:aj:e)p-ant hs_es stem_acc
+:aj:e)p-ant hs_es
+:aj:e)p-ant hs_es stem_acc 
+#accent varies
 
 :le:e)pa/nw
 :wd:e)p-a/^nw	adverb
@@ -7663,6 +7698,7 @@
 
 :le:e)peiso/dios
 :aj:e)p-eisodi os_on
+:aj:e)p-esodi os_on
 
 :le:e)pei/sodos
 :no:e)p-eisod os_ou fem
@@ -7736,6 +7772,7 @@
 :aj:e)p-etei os_on
 :aj:e)p-ete os_on  ionic
 :aj:e)p-etei os_h_on
+:aj:e)p-eti os_h_on late
 
 :le:e)peth/sios
 :aj:e)pethsi os_on
@@ -8146,6 +8183,8 @@
 
 :le:e)pikh/deios
 :aj:e)pi-khdei os_on
+:aj:e)pi-khdi os_on
+#spelling varies
 
 :le:e)pikh/rios
 :aj:e)pi-khri os_on
@@ -8275,8 +8314,9 @@
 :no:e)pi-lhku^qistri a_hs fem
 
 :le:e)pi/lhptos
-:aj:e)pi-lhpt os_on  ionic
+:aj:e)pi-lhpt os_on
 :aj:e)pi-lampt os_on  ionic
+:aj:e)pi-lhmpt os_on  ionic
 
 :le:e)pilh/ptwr
 :no:e)pi-lhpt wr_oros stem_acc   masc
@@ -8290,6 +8330,7 @@
 
 :le:e)pi/lhyis
 :no:e)pi-lhy is_ews fem
+:no:e)pi-lhmy is_ews fem
 
 :le:e)pili/gdhn
 :wd:e)pi-li/gdhn	adverb
@@ -8480,6 +8521,9 @@
 
 :le:e)pi/orkos
 :aj:e)pi-ork os_on
+:aj:e)p-orki os_on late
+:aj:e)fork os_on late
+#manuel
 
 :le:e)piorkosu/nh
 :no:e)piorkosun h_hs stem_acc fem
@@ -9206,10 +9250,8 @@
 :le:e(ptaeth/s
 :aj:e(pta-et hs_es suff_acc
 :aj:e(pta-et hs_es
-:aj:e(pta-et is_idos fem suff_acc
-
-:le:e(ptae/ths
-:aj:e(ptaet hs_es
+:aj:e(pta-et is_idos fem stem_acc
+:no:e(ptaet hs_ou masc pl late stem_acc
 
 :le:e(ptakai/deka
 :wd:e(pta^-kai/-deka numeral
@@ -9928,6 +9970,7 @@
 :le:e)sqlo/s
 :aj:e)sql os_h_on suff_acc
 :aj:e)sl os_h_on suff_acc  doric
+:aj:e)sl os_h_on stem_acc aeolic
 
 :le:e)/sqos
 :no:e)sq hs_eos   neut
@@ -9955,6 +9998,7 @@
 :le:e(spe/rios
 :aj:e(speri os_h_on
 :aj:e(speri os_on
+:aj:e)speri os_on late
 
 :le:e(speri/s
 :no:e(sper is_idos suff_acc fem

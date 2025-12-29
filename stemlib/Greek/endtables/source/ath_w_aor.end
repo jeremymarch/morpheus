@@ -3,9 +3,15 @@ w@ath_inf_act ath_w_aor aor inf act epic needs_acc
 w@ath_act_2 ath_w_aor aor act ind
 o@ath_act_2 ath_w_aor aor ind act epic poetic pl
 o@ihn_opt ath_w_aor aor act opt needs_acc
+w-@ihn_opt ath_w_aor aor act opt needs_acc
 o@pr_opt_mp ath_w_aor aor opt mid
 o@pr_sub_act ath_w_aor subj act aor 1st sg
-w/|hn ath_w_aor aor opt act 1st sg epic
+w/|hn ath_w_aor aor opt act 1st sg
+w/|hs ath_w_aor aor opt act 2nd sg 
+w/|h ath_w_aor aor opt act 3rd sg 
+w/|hmen ath_w_aor aor opt act 1st pl 
+w/|hte ath_w_aor aor opt act 2nd pl 
+w/|en ath_w_aor aor opt act 3rd pl needs_acc 
 w-@pr_sub_act ath_w_aor aor subj act epic ionic
 w-@sh_sub_act ath_w_aor aor subj act short_subj epic
 o@pr_sub_act ath_w_aor subj act aor  not not sg

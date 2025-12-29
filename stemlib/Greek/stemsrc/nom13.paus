@@ -171,6 +171,8 @@
 
 :le:e)reou=s
 :aj:e)re eos_eh_eon
+:aj:e)rei os_h_on late
+:aj:e)rei eos_eh_eon
 
 :le:e)rinu/w
 :vs:e)rinu w_stem
@@ -430,6 +432,7 @@
 
 :le:susta/dhn
 :wd:susta/dhn adverb
+:wd:sunsta/dhn adverb
 
 :le:spa/lac
 :no:spala c_kos fem
@@ -459,8 +462,9 @@
 :le:u(ph/xhsis
 :no:u(phxhs is_ews fem
 
-:le:u(po/gews
-:aj:u(poge ws_wn
+#:le:u(po/gews
+#:aj:u(poge ws_wn
+#dupe
 
 :le:u(po/qhma
 :no:u(poqh ma_matos neut

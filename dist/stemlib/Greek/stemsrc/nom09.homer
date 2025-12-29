@@ -320,6 +320,7 @@
 
 :le:*)hlei=os
 :no:*)hlei os_h_on stem_acc is_ethnic
+:no:*)a_lei os_h_on stem_acc is_ethnic doric
 
 :le:*)/hnoy
 :no:*)hno y_pos masc sg pers_name

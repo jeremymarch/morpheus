@@ -15,7 +15,8 @@ a@iterat_mp ami_pr imperf ind act
 e@pr_sub_act ami_pr pres subj act
 a_tai ami_pr 3rd sg pres subj mp doric needs_acc
 a@ihn_opt ami_pr pres act opt needs_acc
-@a1_opt_mid ami_pr 3rd ionic poetic
+@a1_opt_mid ami_pr pres mp opt 3rd
+@a1_opt_mid ami_pr pres mp opt 2nd
 h ami_pr pres act imperat 2nd sg
 a ami_pr 2nd sg pres imperat act
 a@ath_imp_a ami_pr pres imperat act  not 2nd sg
