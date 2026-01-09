@@ -3,8 +3,8 @@ INCLUDE=../includes
 CFLAGS+= -g -I${INCLUDE}
 LIB=greeklib.a
 RM=rm
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 
 GRKLIBOBJ = Fclose.o \
 addaccent.o \
@@ -51,14 +51,14 @@ subchar.o \
 vaxwords.o \
 sprntGkflags.o \
 xstrings.o \
-zap2ndbreath.o 
+zap2ndbreath.o
 
 ${LIB}: ${GRKLIBOBJ}
 	ar rv ${LIB} ${GRKLIBOBJ}
 	ranlib ${LIB}
 
 clean:
-	rm -f *.o
+	rm -f *.o greeklib.a
 
 
 iotest: io.o vaxwords.o

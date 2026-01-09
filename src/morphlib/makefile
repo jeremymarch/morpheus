@@ -3,8 +3,8 @@ INCLUDE=../includes
 CFLAGS+= -g -I${INCLUDE}
 MORPHLIB=morphlib.a
 RM=rm
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 
 MORPHOBJ= adddomain.o \
 addninfix.o \
@@ -42,7 +42,7 @@ sprntGkflags.o \
 standphon.o \
 trimwhite.o \
 ultform.o \
-ulttakescirc.o 
+ulttakescirc.o
 
 ${MORPHLIB}: ${MORPHOBJ}
 	ar rv ${MORPHLIB} ${MORPHOBJ}
@@ -52,11 +52,10 @@ betasort: betasort.o morphstrcmp.o gktoasc.o
 	${CC} -o betasort betasort.o morphstrcmp.o  gktoasc.o
 
 clean:
-	rm -f *.o
+	rm -f *.o morphlib.a
 
 testkey: tmain.o ${MORPHLIB} ../greeklib/greeklib.a
 	${CC} -o testkey tmain.o  ${MORPHLIB} ../greeklib/greeklib.a
 
 printcodes:	printcodes.o
 	$(CC) -o $@ printcodes.o morphlib.a ../greeklib/greeklib.a
-

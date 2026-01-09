@@ -4,12 +4,12 @@ GREEKLIB= ../greeklib/greeklib.a
 ENDLIB= ../gkends/gkends.a
 GENERLIB= gener.a
 
-GENEROBJ= genwd.o 
+GENEROBJ= genwd.o
 
 #use hc on RT
 #CC=hc
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 #CFLAGS+= -O2 -I${INCLUDE}
 CFLAGS+= -g -I${INCLUDE}
 LINTFLAGS= -I${INCLUDE} -DDEBUG
@@ -27,7 +27,7 @@ ${GENERLIB}: ${GENEROBJ}
 	ar rv ${GENERLIB} ${GENEROBJ}
 	ranlib ${GENERLIB}
 
-do_conj: ${CONJOBJ} ${ENDLIB} ${MORPHLIB} ${GREEKLIB} 
+do_conj: ${CONJOBJ} ${ENDLIB} ${MORPHLIB} ${GREEKLIB}
 	${CC} -o do_conj ${CONJOBJ} ${ENDLIB} ${MORPHLIB} ${GREEKLIB}
 
 checkstype: stypemain.o  ${MORPHLIB} ${GREEKLIB}
@@ -40,5 +40,4 @@ gener: genermain.o gensynform.o  genwd.o genmisc.o  ${ENDLIB} ${MORPHLIB} ${GREE
 	${CC} -o gener genermain.o gensynform.o genwd.o genmisc.o  ${ENDLIB} ${MORPHLIB} ${GREEKLIB}
 
 clean:
-	rm -f *.o
-
+	rm -f *.o gener.a do_conj gener checkstype genstem

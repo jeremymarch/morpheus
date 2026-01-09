@@ -5,8 +5,8 @@ INCLUDE=../includes
 #CFLAGS+= -O2 -I${INCLUDE}
 CFLAGS+= -g -I${INCLUDE}
 RM=rm
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 CXX=g++34
 CPPFLAGS= ${CFLAGS}
 LEX=flex
@@ -17,7 +17,7 @@ MORPHLIB=../morphlib/morphlib.a
 GENERLIB=../gener/gener.a
 DICTLIB=../gkdict/gkdict.a
 ANALLIB=anal.a
-LIBS=${GENERLIB} ${ENDLIB} ${DICTLIB} ${MORPHLIB} ${GREEKLIB} 
+LIBS=${GENERLIB} ${ENDLIB} ${DICTLIB} ${MORPHLIB} ${GREEKLIB}
 
 LSJDIR=/local/text/lsj
 ANALOBJ= checkcrasis.o \
@@ -34,7 +34,7 @@ checkverb.o \
 checkword.o \
 dictstems.o \
 prntanal.o \
-prvb.o 
+prvb.o
 
 ${ANALLIB}: ${ANALOBJ}
 	ar rv ${ANALLIB} ${ANALOBJ}
@@ -71,7 +71,7 @@ deverbal: deverb.o   ${ANALOBJ} ${LIBS}
 	${CC} -o deverbal deverb.o ${ANALOBJ} ${LIBS}
 
 clean:
-	rm -f cruncher *.o
+	rm -f cruncher *.o anal.a morpheus pname findbase deverbal lcnt morphcheck proclems
 
 proclems: proclems.o
 	${CC} -o proclems proclems.o

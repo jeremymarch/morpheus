@@ -1,15 +1,15 @@
 INCLUDE=../includes
-#CFLAGS+= -O2 -I${INCLUDE}  
+#CFLAGS+= -O2 -I${INCLUDE}
 CFLAGS+= -g -I${INCLUDE}
 RM=rm
 ENDLIB=gkends.a
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 
 
 GREEKLIB=../greeklib/greeklib.a
 MORPHLIB=../morphlib/morphlib.a
-LIBS=${ENDLIB} ${MORPHLIB} ${GREEKLIB} 
+LIBS=${ENDLIB} ${MORPHLIB} ${GREEKLIB}
 ENDOBJ= acccompos.o \
 checkforbreath.o \
 contract.o \
@@ -25,7 +25,7 @@ merge.o \
 mkend.o \
 nextsufftab.o \
 retrends.o \
-stor.o 
+stor.o
 
 ${ENDLIB}: ${ENDOBJ}
 	ar -rv ${ENDLIB} ${ENDOBJ}
@@ -55,4 +55,4 @@ buildderiv: expsuffmain.o ${ENDOBJ} ${LIBS}
 	${CC} -o buildderiv expsuffmain.o ${ENDOBJ} ${LIBS}
 
 clean:
-	rm -f *.o
+	rm -f *.o gkends.a buildword buildend indderivtables indendtables buildderiv

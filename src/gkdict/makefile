@@ -9,8 +9,8 @@ DICTOBJ=dictio.o derivio.o compnoun.o
 
 #use hc on RT
 #CC=hc
-CC=cc
-CC=gcc
+#CC=cc
+#CC=gcc
 #CFLAGS+= -O -I${INCLUDE}   -g
 #CFLAGS+= -O -I${INCLUDE}   -Wstrict-prototypes   -Wmissing-prototypes
 #CFLAGS+= -O2 -I${INCLUDE}
@@ -39,10 +39,10 @@ indexvbs:	indexvbs.main.o indexstems.o ${MORPHLIB} ${GREEKLIB}
 	${CC} -o indexvbs indexvbs.main.o indexstems.o ${MORPHLIB} ${GREEKLIB}
 
 newlats:	newlats.o  ${MORPHLIB} ${GREEKLIB} ${GKENDS}
-	${CC} -o newlats newlats.o  ${GKENDS} ${MORPHLIB} ${GREEKLIB} 
+	${CC} -o newlats newlats.o  ${GKENDS} ${MORPHLIB} ${GREEKLIB}
 
 newlems:	newlems.o  ${MORPHLIB} ${GREEKLIB} ${GKENDS}
-	${CC} -o newlems newlems.o  ${GKENDS} ${MORPHLIB} ${GREEKLIB} 
+	${CC} -o newlems newlems.o  ${GKENDS} ${MORPHLIB} ${GREEKLIB}
 
 newlems2:	newlems2.o  ${MORPHLIB} ${GREEKLIB}
 	${CC} -o newlems2 newlems2.o  ${MORPHLIB} ${GREEKLIB}
@@ -60,4 +60,3 @@ clean:
 /tmp/nt: latnom splitlems
 	splitlems < /local/text/ls/lemmata | fixhesc | fgrep -v vtags  | latnom > /tmp/lat
 	getitype < /tmp/lat | sort | uniq -c | sort -rn > /tmp/nt
-
