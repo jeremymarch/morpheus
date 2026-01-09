@@ -1,5 +1,5 @@
 CC= gcc
-CFLAGS= -O2
+CFLAGS= " -D_POSIX_C_SOURCE=200809L -std=c89 -fcommon -Wno-return-mismatch -Wno-implicit-int -Wno-implicit-function-declaration "
 LSJDIR=/local/text/lsj
 
 STEMPROG= stemsrc/stripref stemsrc/zapfirstf stemsrc/headnolen \
@@ -53,7 +53,7 @@ vbs:	stemsrc/lsj.vbs stemsrc/vbs.irreg stemind/vbind
 stemind/vbind:
 	cat stemsrc/vbs.irreg stemsrc/vbs.simp.ml stemsrc/vbs.simp.02.new stemsrc/lsj.vbs \
 	    > conjfile
-	do_conj 
+	do_conj
 	mv conjfile.short /tmp/vbmorph
 	indexvbs
 
