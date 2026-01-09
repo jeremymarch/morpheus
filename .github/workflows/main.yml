@@ -2,29 +2,28 @@ name: Build Morpheus Stemlibs
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-
     runs-on: ubuntu-22.04
 
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Update packages
-      run: sudo apt-get update -qq
-      
-    - name: Install dependencies
-      run: sudo apt-get install -qq -y build-essential flex-old
+      - uses: actions/checkout@v4
 
-    - name: Make
-      run: bash -c "cd src/ && CFLAGS='-std=gnu89 -fcommon' make && make install"
+      - name: Update packages
+        run: sudo apt-get update -qq
 
-    - name: Make the stemlib
-      run: bash -c "./build_stemlib.sh"
+      - name: Install dependencies
+        run: sudo apt-get install -qq -y build-essential flex
+
+      - name: Make
+        run: bash -c "./build_mac.sh"
+
+      - name: Make the stemlib
+        run: bash -c "./build_stemlib.sh"
 
     # - name: commit
     #   uses: EndBug/add-and-commit@v4
@@ -33,4 +32,3 @@ jobs:
     #     add: dist
     #   env:
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
