@@ -3,7 +3,7 @@
 # Modern macOS build script
 
 # Use the system's default compiler
-export CC="gcc -std=c89 -fcommon -Wno-return-mismatch -Wno-implicit-int -Wno-implicit-function-declaration"
+export CC="gcc -D_POSIX_C_SOURCE=200809L -std=c89 -fcommon -Wno-return-mismatch -Wno-implicit-int -Wno-implicit-function-declaration"
 export LDFLAGS=""
 
 cd src
