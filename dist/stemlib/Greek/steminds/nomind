@@ -22,7 +22,7 @@
 *(agnw :*(/agnwn:n_nos:masc
 *(agnwnei :*(/agnwn:os_h_on
 *(agnwnid :*(agnwni/dhs:hs_ou:masc:stem_acc
-*(a|d :*(/aidhs:hs_ou:masc:pers_name
+*(aid :*(/aidhs:hs_ou:masc:pers_name
 *(a|dobat :*(a|doba/ths:hs_ou:masc:stem_acc
 *(a|dofoit :*(a|dofoi/ths:hs_ou:masc:stem_acc
 *(al :*(/alis:is_ews:masc :*(/alos:os_ou:masc :*(/alus:us_uos:fem :*(/alus:us_uos:masc :*(alai/:h_hs:fem:pl:suff_acc :*(aleu/s:eus_ews:masc:suff_acc :*(alou=s:oeis_oentos:masc
@@ -17692,7 +17692,7 @@
 2a)neuqe a)/neuqe:a)/neuqe:prep
 2a)neuqen a)/neuqen:a)/neuqe:prep
 2a)new a)/new:a)/new:adverb:a_priv
-2a)new| a)/new|:a)/new:adverb:a_priv a)/newi:a)/new:adverb:a_priv
+2a)newi a)/newi:a)/new:adverb:a_priv a)/new|:a)/new:adverb:a_priv
 2a)new|gotws a)new|go/tws:a)new|go/tws:adverb
 2a)news a)/news:a)/new:adverb:a_priv
 2a)nhplwmenws a)nhplwme/nws:a)nhplwme/nws:adverb

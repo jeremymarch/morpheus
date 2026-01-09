@@ -31,8 +31,8 @@ jobs:
       - name: Make
         run: bash -c "./build_mac.sh"
 
-      # - name: Make the stemlib
-      #   run: bash -c "./build_stemlib.sh"
+      - name: Make the stemlib
+        run: bash -c "./build_stemlib.sh"
 
     # - name: commit
     #   uses: EndBug/add-and-commit@v4

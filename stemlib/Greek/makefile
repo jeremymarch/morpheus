@@ -1,5 +1,5 @@
 CC= gcc
-CFLAGS= " -D_POSIX_C_SOURCE=200809L -std=c89 -fcommon -Wno-return-mismatch -Wno-implicit-int -Wno-implicit-function-declaration "
+CFLAGS=-D_POSIX_C_SOURCE=200809L -std=c89 -fcommon -Wno-return-mismatch -Wno-implicit-int -Wno-implicit-function-declaration
 LSJDIR=/local/text/lsj
 
 STEMPROG= stemsrc/stripref stemsrc/zapfirstf stemsrc/headnolen \
