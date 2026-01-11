@@ -2,7 +2,6 @@ int get_philolog(char *word) {
     return 26;
 }
 
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -30,7 +29,6 @@ char *philolog_morph(char *line, int lang, char *lib_path)
     size_t len = 0;
     stream = open_memstream(&buf, &len);
     if (stream == NULL) {
-        //perror("open_memstream failed");
         return NULL;
     }
     if (lib_path) {
@@ -39,10 +37,9 @@ char *philolog_morph(char *line, int lang, char *lib_path)
     if (lang) {
         set_lang(lang);
     }
-	//char		line[BUFSIZ*4];
 
 	PrntFlags	flags = (PERSEUS_FORMAT|STRICT_CASE);
-	//flags |= input_flags;
+	/* flags |= input_flags; */
 
 	int			rval;
 	long		freemem = 0;
@@ -50,42 +47,44 @@ char *philolog_morph(char *line, int lang, char *lib_path)
 	int			errflg = 0;
 
 	/* process arguments */
-	// while (!errflg && (c = getopt(argc, argv, ARGS)) != -1)
-	// {
-	// 	switch (c)
-	// 	{
-	// 	  case 'c':
-	// 		flags |= CHECK_PREVERB;
-	// 		break;
-	// 	  case 'I':
-	// 		set_lang(ITALIAN);
-	// 		break;
-	// 	  case 'L':
-	// 		set_lang(LATIN);
-	// 		break;
-	// 	  case 'i':
-	// 		flags |= SHOW_FULL_INFO;
-	// 		break;
-	// 	  case 'x':
-	// 		flags |= LEXICON_OUTPUT;
-	// 		break;
-	// 	  case 'V':
-	// 		flags |= VERBS_ONLY;
-	// 		break;
-	// 	  case 'S':
-	// 		flags &= ~(STRICT_CASE);
-	// 		break;
-	// 	  case 'p':
-	// 		flags |= PARSE_FORMAT;
-	// 		break;
-	// 	  case 'm':
-	// 		SetMorphPath(optarg);
-	// 		break;
-	// 	  default:
-	// 		errflg++;
-	// 		break;
-	// 	}
-	// }
+	/*
+	while (!errflg && (c = getopt(argc, argv, ARGS)) != -1)
+	{
+		switch (c)
+		{
+		  case 'c':
+			flags |= CHECK_PREVERB;
+			break;
+		  case 'I':
+			set_lang(ITALIAN);
+			break;
+		  case 'L':
+			set_lang(LATIN);
+			break;
+		  case 'i':
+			flags |= SHOW_FULL_INFO;
+			break;
+		  case 'x':
+			flags |= LEXICON_OUTPUT;
+			break;
+		  case 'V':
+			flags |= VERBS_ONLY;
+			break;
+		  case 'S':
+			flags &= ~(STRICT_CASE);
+			break;
+		  case 'p':
+			flags |= PARSE_FORMAT;
+			break;
+		  case 'm':
+			SetMorphPath(optarg);
+			break;
+		  default:
+			errflg++;
+			break;
+		}
+	}
+	*/
 
 	/* process input */
 	int	nwords = 0;
@@ -114,7 +113,7 @@ char *philolog_morph(char *line, int lang, char *lib_path)
 
 	if (nwords == 0)
 	{
-		//printf("<error>No words</error>\n");
+		/* printf("<error>No words</error>\n"); */
 		return NULL;
 	}
 	else
@@ -122,8 +121,8 @@ char *philolog_morph(char *line, int lang, char *lib_path)
 		fprintf(stream, "</words>\n");
 	}
 
-	fflush(stream); // Updates 'buf' and 'len'
-	fclose(stream); // Finalizes 'buf' and 'len', closes the stream
+	fflush(stream); /*  Updates 'buf' and 'len' */
+	fclose(stream); /* Finalizes 'buf' and 'len', closes the stream */
 
 	return buf;
 }
