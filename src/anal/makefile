@@ -17,6 +17,7 @@ MORPHLIB=../morphlib/morphlib.a
 GENERLIB=../gener/gener.a
 DICTLIB=../gkdict/gkdict.a
 ANALLIB=anal.a
+PHILLIB=libphilolog.a
 LIBS=${GENERLIB} ${ENDLIB} ${DICTLIB} ${MORPHLIB} ${GREEKLIB}
 
 LSJDIR=/local/text/lsj
@@ -36,11 +37,38 @@ dictstems.o \
 prntanal.o \
 prvb.o
 
+PHILOBJ= checkcrasis.o \
+checkdict.o \
+checkgenwds.o \
+checkhalf1.o \
+checkindecl.o \
+checkirreg.o \
+checknom.o \
+checkpreverb.o \
+checkstem.o \
+checkstring.o \
+checkverb.o \
+checkword.o \
+dictstems.o \
+prntanal.o \
+prvb.o \
+philolog.o \
+prntalph.o
+
 ${ANALLIB}: ${ANALOBJ}
 	ar rv ${ANALLIB} ${ANALOBJ}
 	ranlib ${ANALLIB}
 
-ALL=cruncher morpheus pname findbase deverbal ${ANALLIB}
+${PHILLIB}: ${PHILOBJ} ${LIBS}
+	rm -f ${PHILLIB}
+	rm -rf tmp_objs
+	mkdir tmp_objs
+	for lib in ${LIBS}; do (cd tmp_objs && ar x ../$$lib); done
+	ar q ${PHILLIB} ${PHILOBJ} tmp_objs/*.o
+	ranlib ${PHILLIB}
+	rm -rf tmp_objs
+
+ALL=cruncher morpheus pname findbase deverbal ${ANALLIB} ${PHILLIB}
 
 all: ${ALL}
 
@@ -71,7 +99,7 @@ deverbal: deverb.o   ${ANALOBJ} ${LIBS}
 	${CC} -o deverbal deverb.o ${ANALOBJ} ${LIBS}
 
 clean:
-	rm -f cruncher *.o anal.a morpheus pname findbase deverbal lcnt morphcheck proclems
+	rm -f cruncher *.o anal.a morpheus pname findbase deverbal lcnt morphcheck proclems libphilolog.a
 
 proclems: proclems.o
 	${CC} -o proclems proclems.o
