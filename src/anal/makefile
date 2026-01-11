@@ -53,7 +53,8 @@ dictstems.o \
 prntanal.o \
 prvb.o \
 philolog.o \
-prntalph.o
+prntalph.o \
+../morphlib/sprntGkflags.o
 
 ${ANALLIB}: ${ANALOBJ}
 	ar rv ${ANALLIB} ${ANALOBJ}
