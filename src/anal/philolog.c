@@ -90,23 +90,23 @@ char *philolog_morph(char *line, int lang, char *lib_path)
 	int	nwords = 0;
 
 	/* for each word in line */
-	char*	word = strtok(line, " \t");
+	char* word = strtok(line, " \t");
 	for (; word; word = strtok(NULL, " \t"))
 	{
 		cleanstring(word);
 		if (!*word)
 			continue;
 		if (nwords == 0)
-			printf("<words>\n");
+			fprintf(stream, "<words>\n");
 
 		if (!alpheiosCheckstring(word, flags, stream))
 		{
-			printf("<unknown xml:lang=");
+			fprintf(stream, "<unknown xml:lang=");
 			if (cur_lang() == GREEK)
-				printf("\"grc-x-beta\"");
+				fprintf(stream, "\"grc-x-beta\"");
 			else if (cur_lang() == LATIN)
-				printf("\"lat\"");
-			printf(">%s</unknown>\n", word);
+				fprintf(stream, "\"lat\"");
+			fprintf(stream, ">%s</unknown>\n", word);
 		}
 		++nwords;
 	}
